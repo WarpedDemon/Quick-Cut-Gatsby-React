@@ -1,0 +1,278 @@
+* { padding: 0; margin: 0;  font-family: "Abril Fatface", sans-serif;}
+body { background-color: 	#FFFAFA; }
+
+iframe{
+  width: 25vw;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#IconContainer {
+    height: 18vh;
+    margin-right: 3vw;
+    margin-top: 1vh;
+    color: white;
+    font-size: 65px;
+    float: right;
+}
+
+#SocialIcons {
+    display: flex;
+    padding: 5px;
+    width: 25vw;
+    height: 25vh;
+    margin-right: 50%;
+    margin-left: 50%;
+    color: white;
+    margin-top: -15.5vh;
+    font-size: 65px;
+    float: right;
+}
+
+.SocialIconImage{
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  margin: 2.5px;
+  border-radius: 15px;
+}
+
+.Facebook{
+  background-size: 25px 25px;
+/*  background-image: url("../img/fb.svg");*/
+}
+
+.LinkedIn{
+  background-size: 25px 25px;
+/*  background-image: url("../img/li.png");*/
+}
+
+.Insta{
+  background-size: 25px 25px;
+/*  background-image: url("../img/insta.png");*/
+}
+
+.GMB{
+  background-size: 25px 25px;
+/*  background-image: url("../img/gmb.png");*/
+}
+
+#MainContent{
+  padding-bottom:15px;
+}
+
+#MainContent > p{
+  width: 25vw;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#ConentContainer{
+  margin-left: 35%;
+}
+
+.Spacer{
+  height: 37vh;
+}
+
+.HalfSpacer{
+  height: 25vh;
+}
+
+#SecondPanel{
+  height: 100vw;
+}
+
+#ConentContainerLeft{
+  float: left;
+  margin-left: 10vw;
+  margin-top: 30vh;
+}
+
+#ConentContainerRight{
+  float: right;
+  margin-right: 10vw;
+  margin-top: 30vh;
+}
+
+ul{
+  list-style: none;
+}
+
+@media only screen and (min-width : 1024px) {
+  #IntroContentBox{
+    transform: rotate(5deg);
+  }
+}
+
+#IntroContentBox{
+  padding: 5px;
+  width: 25vw;
+  height: auto;
+  background-color: #bc006e;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  box-shadow: -15px 15px 0px 0px black;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#PeelParrallaxNav{
+  background-repeat: no-repeat;
+/*  background-image: url("../img/Quick-Cuts-Header.PNG");*/
+
+  height:25vh;
+  width:90vw;
+
+  background-size: cover;
+
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+}
+
+.PeelParrallax{
+  transform-style: preserve-3d;
+  /* Set a specific height */
+  /*min-height: 1000px;*/
+  min-height: 110vh;
+
+  /* Create the PeelParrallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*
+  background-position: top 15px right 0px;
+  background-position-x: 100%;
+  background-position-y: 0%;
+  -webkit-transform: translateZ(0);
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  */
+}
+
+.img1{
+  /* The image used */
+/*  background-image: url("../img/101_idea1.jpg");*/
+}
+
+.img2{
+
+  /* The image used */
+    /*
+  background-image: url("../img/101_idea2.jpg");
+  */
+  min-height: 120vh!important;
+}
+
+.img3{
+  /* The image used */
+    /*
+  background-image: url("../img/101_idea3.jpg");*/
+}
+
+.img4{
+  /* The image used */
+    /*
+  background-image: url("../img/101_idea4.jpg");*/
+}
+
+.img5{
+  /* The image used */
+  background-color: white;
+  min-height: 350vh!important;
+}
+
+.img6{
+  /* The image used */
+  /*
+  background-image: url("../img/101_idea6.jpg");*/
+}
+
+.Before{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+    /*
+  background-image: url("../img/Before.PNG");
+  */
+}
+
+.After{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+  /*
+  background-image: url("../img/After.PNG");
+  */
+}
+
+#Footer{
+  margin-top: 175vh;
+  color:#bc006e;
+}
+
+#FooterRibben{
+  margin-left: -1vw;
+  width: 100vw;
+  height:1vh;
+  background-color: #bc006e;
+}
+
+#FooterContent{
+
+}
+
+#FooterText{
+  font-size: 35px;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+#FooterFaq{
+  text-align: center;
+  font-size: 35px;
+}
+
+#FAQTitle{
+  font-size: 35px;
+  text-align: center;
+}
+
+#FooterLogo{
+  float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  width: 10vw;
+  margin-left: 45vw;
+  /*
+  background-image: url("../img/QuickCutWLogo.JPG");*/
+}

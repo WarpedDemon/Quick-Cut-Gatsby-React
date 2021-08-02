@@ -1,0 +1,177 @@
+@media only screen and (max-width: 725px) {
+
+  html{
+    overflow-x: hidden;
+  }
+
+  #PeelParrallaxNav{
+    max-height: 20%;
+    min-height: 20%;
+  }
+
+  .PeelParrallax{
+      background-attachment: scroll;
+      width:100vw;
+      height: 200vh;
+  }
+
+  #ConentContainer{
+    margin-left: 0;
+    margin-left: 0%;
+  }
+
+  #MainContent > p{
+    width: 90vw;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .img1{
+    min-height: 125vh!important;
+    height: 125vh!important;
+  }
+
+  .img2{
+    min-height: 150vh!important;
+    height: 150vh!important;
+  }
+
+  .img3{
+    min-height: 150vh!important;
+    height: 150vh!important;
+  }
+
+  .img4{
+    min-height: 175vh!important;
+    height: 175vh!important;
+  }
+
+  .img6{
+    min-height: 85vh!important;
+    height: 85vh!important;
+  }
+
+  #SocialIcons{
+    display: flex;
+    padding: 5px;
+    width: 25vw;
+    height: 25vh;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    margin-right: 0%;
+    color: white;
+    font-size: 35px;
+    float: right;
+  }
+
+  iframe{
+    width: 90vw;
+  }
+
+  #IntroContentBox{
+    width: 90vw;
+    height: auto;
+    background-color: #bc006e;
+    color: white;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 22px;
+  }
+
+  #MainConentTitle{
+    width: 90vw;
+  }
+
+  #MainConentTitleLeft{
+    width: 90vw;
+  }
+
+  #FooterLogo{
+    float: left;
+    width:47vw;
+    height: 17vh;
+    margin-left: 22vw;
+    margin-top: 35px;
+  }
+
+  #MainConentTitleRight{
+    width: 90vw;
+  }
+
+  #ContentContainerRightContent{
+    margin-right: -0vw;
+  }
+
+  #ContentContainerLeftContent{
+    margin-left: -0vw;
+  }
+
+  #hrLeft{
+    width: 90vw;
+  }
+
+  #hrRight{
+    width: 90vw;
+  }
+
+  #IconContainer {
+    height: 18vh;
+    margin-top:3vh;
+    color: white;
+    font-size: 64px;
+    margin-right: 15px;
+  }
+
+  #IconContainer > a{
+    color: white;
+  }
+
+  #ConentContainerRight {
+    float: left;
+    margin-top: 5vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+  }
+
+  #ConentContainerLeft {
+    float: left;
+    margin-top: 5vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+  }
+
+  #FooterRibben{
+    width: 90vw;
+  }
+
+  #FooterText {
+    font-size: 25px;
+    margin-top: 20vh;
+    text-align: left;
+  }
+
+  #FAQTitle {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  #FooterFaq {
+    text-align: left;
+    font-size: 25px;
+  }
+
+  #Footer{
+    padding:15px;
+  }
+}
