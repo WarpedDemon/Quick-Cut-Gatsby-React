@@ -1,4 +1,5 @@
-import React, {Link} from 'react'
+import React from 'react'
+import {Link} from 'gatsby'
 
 export default function SingleParrallaxPage() {
     return (
@@ -33,7 +34,7 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
       </div>
-
+      
       <div className="PeelParrallax img2">
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
@@ -41,7 +42,7 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitleRight">Whitfords Opening Times</h2>
               <hr id="hrRight"/>
               <br/>
-              <p>
+              <div>
                 <ul>
                   <li>
                   Monday: 9am to 5pm
@@ -72,7 +73,7 @@ export default function SingleParrallaxPage() {
                   </li>
                 </ul>
                 <br/>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -83,7 +84,7 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitleLeft">Dianella Opening Times</h2>
               <hr id="hrLeft"/>
               <br/>
-              <p>
+              <div>
                 <ul id="ContentContainerLeftContent">
                   <li>
                   Monday: 9am to 5pm
@@ -114,7 +115,7 @@ export default function SingleParrallaxPage() {
                   </li>
                 </ul>
                 <br/>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -128,7 +129,7 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitleRight">Whitfords Details</h2>
               <hr id="hrRight"/>
               <br/>
-              <p>
+              <div>
                 <ul>
                   <u>Phone:</u>
                   <br/>
@@ -148,7 +149,7 @@ export default function SingleParrallaxPage() {
                   Email:jngo@jgup.com.au
                 </ul>
                 <br/>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -159,7 +160,7 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitleLeft">Dianella Details</h2>
               <hr id="hrLeft"/>
               <br/>
-              <p>
+              <div>
                 <ul id="ContentContainerLeftContent">
                   <u>Phone:</u>
                   <br/>
@@ -179,7 +180,7 @@ export default function SingleParrallaxPage() {
                   Email: jngo@jgup.com.au
                 </ul>
                 <br/>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -195,12 +196,12 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitleRight">Whitfords On Maps</h2>
               <hr id="hrRight"/>
               <br/>
-              <p>
+              <div>
                 <ul>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.030448945579!2d115.74898611515749!3d-31.796920081279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ab649bed9a45%3A0xaf8e27dfbcb3ab1c!2sQuickCut%20Whitfords!5e0!3m2!1sen!2sau!4v1626785614418!5m2!1sen!2sau" width={"600"} height={"450"} allowfullscreen={""} loading={"lazy"}></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.030448945579!2d115.74898611515749!3d-31.796920081279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ab649bed9a45%3A0xaf8e27dfbcb3ab1c!2sQuickCut%20Whitfords!5e0!3m2!1sen!2sau!4v1626785614418!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
                 </ul>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -212,12 +213,12 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitleLeft">Dianella On Maps</h2>
               <hr id="hrLeft"/>
               <br/>
-              <p>
+              <div>
                 <ul id="ContentContainerLeftContent">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.416902906192!2d115.87057521515985!3d-31.895268181247328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa0d0e5a0c265bd6!2sQuickCut%20Dianella!5e0!3m2!1sen!2sau!4v1626785581824!5m2!1sen!2sau" width={"600"} height={"450"} allowfullscreen={""} loading={"lazy"}></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.416902906192!2d115.87057521515985!3d-31.895268181247328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa0d0e5a0c265bd6!2sQuickCut%20Dianella!5e0!3m2!1sen!2sau!4v1626785581824!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
                 </ul>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -249,10 +250,10 @@ export default function SingleParrallaxPage() {
               <h3 id="MainConentTitleRight">Hair Cut After</h3>
               <hr id="hrRight"/>
               <br/>
-              <p>
+              <div>
                 <div className="Before"></div>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -264,10 +265,10 @@ export default function SingleParrallaxPage() {
               <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
               <hr id="hrLeft"/>
               <br/>
-              <p>
+              <div>
                 <div className="After"></div>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -281,10 +282,10 @@ export default function SingleParrallaxPage() {
               <h3 id="MainConentTitleRight">Hair Cut After</h3>
               <hr id="hrRight"/>
               <br/>
-              <p>
+              <div>
                 <div className="Before"></div>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -296,10 +297,10 @@ export default function SingleParrallaxPage() {
               <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
               <hr id="hrLeft"/>
               <br/>
-              <p>
+              <div>
                 <div className="After"></div>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -313,10 +314,10 @@ export default function SingleParrallaxPage() {
               <h3 id="MainConentTitleRight">Hair Cut After</h3>
               <hr id="hrRight"/>
               <br/>
-              <p>
+              <div>
                 <div className="Before"></div>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -328,10 +329,10 @@ export default function SingleParrallaxPage() {
               <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
               <hr id="hrLeft"/>
               <br/>
-              <p>
+              <div>
                 <div className="After"></div>
                 <br/>
-              </p>
+              </div>
               <br/>
             </div>
           </div>
@@ -344,7 +345,7 @@ export default function SingleParrallaxPage() {
           <hr id="FooterRibben"/>
           <Link to="#Footer"></Link>
           <div id="FooterContent">
-            <p id="FooterText">
+            <div id="FooterText">
               Thanks for visiting Quick Cuts!
               <br/>
               <br/>
@@ -371,7 +372,7 @@ export default function SingleParrallaxPage() {
                 <li>-    Yes Quick Cuts is a walk in business.</li>
               </ul>
               <br/>
-            </p>
+            </div>
           </div>
           <br/>
           <Link to="#Top"><div id="FooterLogo"></div></Link>
@@ -379,6 +380,7 @@ export default function SingleParrallaxPage() {
 
         <div className="Spacer"></div>
       </div>
+      
     </div>
     )
 }

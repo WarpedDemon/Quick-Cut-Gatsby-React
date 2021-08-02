@@ -1,6 +1,5 @@
 import React from 'react'
 import {Helmet} from "react-helmet";
-import DocumentMeta from 'react-document-meta';
 
 import "../styles/LandingPage.css"
 import "../styles/Mobile.css"
