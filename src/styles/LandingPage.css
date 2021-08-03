@@ -137,7 +137,7 @@ h3{
 
 #PeelParrallaxNav{
   background-repeat: no-repeat;
-  background-image: url("../img/Quick-Cuts-Header.PNG");
+  background-image: url("../img/Quick-Cuts-Header.png");
 
   height:25vh;
   width:90vw;
@@ -213,7 +213,7 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   height: 55vh;
-  background-image: url("../img/Before.PNG");
+  background-image: url("../img/Before.png");
 }
 
 .After{
@@ -221,7 +221,7 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   height: 55vh;
-  background-image: url("../img/After.PNG");
+  background-image: url("../img/After.png");
 }
 
 #Footer{
@@ -264,5 +264,5 @@ h3{
   height: 20vh;
   width: 10vw;
   margin-left: 45vw;
-  background-image: url("../img/QuickCutWLogo.JPG");
+  background-image: url("../img/QuickCutWLogo.png");
 }
