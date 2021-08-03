@@ -47,17 +47,17 @@ a{
 
 .LinkedIn{
   background-size: 25px 25px;
-  background-image: url("../img/li.png");
+  background-image: url("../img/li.PNG");
 }
 
 .Insta{
   background-size: 25px 25px;
-  background-image: url("../img/insta.png");
+  background-image: url("../img/insta.PNG");
 }
 
 .GMB{
   background-size: 25px 25px;
-  background-image: url("../img/gmb.png");
+  background-image: url("../img/gmb.PNG");
 }
 
 #MainContent{
@@ -213,7 +213,7 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   height: 55vh;
-  background-image: url("../img/Before.png");
+  background-image: url("../img/Before.PNG");
 }
 
 .After{
@@ -221,7 +221,7 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   height: 55vh;
-  background-image: url("../img/After.png");
+  background-image: url("../img/After.PNG");
 }
 
 #Footer{
