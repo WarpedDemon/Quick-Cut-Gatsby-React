@@ -22,7 +22,7 @@ export default function SingleParrallaxPage() {
               <Link to="https://g.page/qyickcutw?share"><div className="SocialIconImage GMB"></div></Link>
               <Link to="https://g.page/quickcutd?share"><div className="SocialIconImage GMB"></div></Link>
           </div>
-          <Link to="tel:040324347" id="Phone">✆</Link>
+          <a href="tel:040324347" id="Phone">✆</a>
         </div>
 
         <div className="Spacer"></div>
