@@ -4823,24 +4823,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*************************************************************************************************************!*\
-  !*** external "C:\\Users\\AuraG\\Desktop\\Quick-Cut-Gatsby-React-main\\node_modules\\react-dom\\server.js" ***!
-  \*************************************************************************************************************/
+/*!*************************************************************************************************************************************************!*\
+  !*** external "C:\\Users\\AuraG\\Desktop\\Websites\\Nelgara-Gatsby\\nelgaraptyltd\\Quick-Cut-Gatsby-React\\node_modules\\react-dom\\server.js" ***!
+  \*************************************************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\Users\\AuraG\\Desktop\\Quick-Cut-Gatsby-React-main\\node_modules\\react-dom\\server.js");
+module.exports = require("C:\\Users\\AuraG\\Desktop\\Websites\\Nelgara-Gatsby\\nelgaraptyltd\\Quick-Cut-Gatsby-React\\node_modules\\react-dom\\server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!********************************************************************************************************!*\
-  !*** external "C:\\Users\\AuraG\\Desktop\\Quick-Cut-Gatsby-React-main\\node_modules\\react\\index.js" ***!
-  \********************************************************************************************************/
+/*!********************************************************************************************************************************************!*\
+  !*** external "C:\\Users\\AuraG\\Desktop\\Websites\\Nelgara-Gatsby\\nelgaraptyltd\\Quick-Cut-Gatsby-React\\node_modules\\react\\index.js" ***!
+  \********************************************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\Users\\AuraG\\Desktop\\Quick-Cut-Gatsby-React-main\\node_modules\\react\\index.js");
+module.exports = require("C:\\Users\\AuraG\\Desktop\\Websites\\Nelgara-Gatsby\\nelgaraptyltd\\Quick-Cut-Gatsby-React\\node_modules\\react\\index.js");
 
 /***/ })
 
