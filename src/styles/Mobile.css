@@ -8,6 +8,7 @@
     margin-left: 33vw;
     display: inline-grid;
     background-color: #bc006e;
+    display: none;
   }
 
   #PeelParrallaxNav{
