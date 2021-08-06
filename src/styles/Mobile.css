@@ -4,6 +4,12 @@
     overflow-x: hidden;
   }
 
+  #Nav{
+    margin-left: 33vw;
+    display: inline-grid;
+    background-color: #bc006e;
+  }
+
   #PeelParrallaxNav{
     max-height: 20%;
     min-height: 20%;
@@ -51,6 +57,11 @@
     height: 85vh!important;
   }
 
+  #Phone{
+    margin-right: -44vw;
+    margin-top: -24.6vh;
+  }
+
   #SocialIcons{
     display: flex;
     padding: 5px;
@@ -58,7 +69,7 @@
     height: 25vh;
     margin-left: 0vw;
     margin-top: 0vh;
-    margin-right: 0%;
+    margin-right: 46vw;
     color: white;
     font-size: 35px;
     float: right;
