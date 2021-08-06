@@ -4,10 +4,16 @@ import {Link} from 'gatsby'
 export default function SingleParrallaxPage() {
     return (
     <div className="Fullpage">
-      <div className="PeelParrallax img1">
+      <div className="PeelParrallax img1" id="img1">
         <div id="PeelParrallaxNav">
           <div id="IconContainer">
-            <Link to="tel:0403 243 478">✆</Link>
+            <div id="Nav">
+              <Link to="#img2">Times</Link>
+              <Link to="#img3">Details</Link>
+              <Link to="#img4">Maps</Link>
+              <Link to="#img6">Before/After</Link>
+              <Link to="#FooterText">FAQ</Link>
+            </div>
           </div>
           <div id="SocialIcons">
               <Link to="https://www.facebook.com/quickcutd"><div className="SocialIconImage Facebook"></div></Link>
@@ -16,6 +22,7 @@ export default function SingleParrallaxPage() {
               <Link to="https://g.page/qyickcutw?share"><div className="SocialIconImage GMB"></div></Link>
               <Link to="https://g.page/quickcutd?share"><div className="SocialIconImage GMB"></div></Link>
           </div>
+          <Link to="tel:040324347" id="Phone">✆</Link>
         </div>
 
         <div className="Spacer"></div>
@@ -27,15 +34,14 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitle">Professional Haircuts Perth</h2>
               <hr/>
               <br/>
-              <Link to="#Top"></Link>
               <p>We specialise in a quick professional hair cutting service, from $10 ~ 10 Min.</p>
               <br/>
             </div>
           </div>
         </div>
       </div>
-      
-      <div className="PeelParrallax img2">
+
+      <div className="PeelParrallax img2" id="img2">
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
@@ -122,7 +128,7 @@ export default function SingleParrallaxPage() {
         <div className="Spacer"></div>
       </div>
 
-      <div className="PeelParrallax img3">
+      <div className="PeelParrallax img3" id="img3">
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
@@ -189,7 +195,7 @@ export default function SingleParrallaxPage() {
 
       </div>
 
-      <div className="PeelParrallax img4">
+      <div className="PeelParrallax img4" id="img4">
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
@@ -228,7 +234,7 @@ export default function SingleParrallaxPage() {
 
       </div>
 
-      <div className="PeelParrallax img6">
+      <div className="PeelParrallax img6" id="img6">
         <div className="Spacer"></div>
         <div id="ConentContainer">
           <div id="IntroContentBox">
@@ -359,28 +365,28 @@ export default function SingleParrallaxPage() {
               <ul id="FooterFaq">
                 <li>Does Quick Cuts currently offer any products?</li>
                 <br/>
-                <li>-    No Quick Cuts does not sell any products.</li>
+                <li>    -    No Quick Cuts does not sell any products.</li>
                 <br/>
                 <br/>
                 <li>Does Quick Cuts currently offer any bookings?</li>
                 <br/>
-                <li>-    No Quick Cuts does not offer any bookings.</li>
+                <li>    -    No Quick Cuts does not offer any bookings.</li>
                 <br/>
                 <br/>
                 <li>Is Quick Cuts a walk in only business?</li>
                 <br/>
-                <li>-    Yes Quick Cuts is a walk in business.</li>
+                <li>    -    Yes Quick Cuts is a walk in business.</li>
               </ul>
               <br/>
+              <br/>
+              <Link to="#img1" id="FAQTitle">Back To Top</Link>
             </div>
           </div>
-          <br/>
-          <Link to="#Top"><div id="FooterLogo"></div></Link>
         </div>
 
         <div className="Spacer"></div>
       </div>
-      
+
     </div>
     )
 }

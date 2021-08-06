@@ -10,24 +10,53 @@ a{
   color: white;
 }
 
+a:hover{
+  text-decoration: none;
+  color: black!important;
+}
+
+#Nav{
+  margin-top: 1vh;
+  margin-left: 20vw;
+  font-size: 25px;
+  float: left;
+}
+
+#Nav > a{
+  margin-left: 1vw;
+}
+
+#Phone{
+  float: right;
+  height: 18vh;
+  margin-right: 3vw;
+  margin-top: -20.6vh;
+  color: white;
+  font-size: 65px;
+}
+
+#FAQTitle{
+  color:#bc006e;
+}
+
 #IconContainer {
     height: 18vh;
     margin-right: 3vw;
-    margin-top: 1vh;
+    margin-top: 2vh;
     color: white;
     font-size: 65px;
-    float: right;
+    float: left;
 }
 
 #SocialIcons {
     display: flex;
     padding: 5px;
     width: 25vw;
-    height: 25vh;
+    height: 3vh;
     margin-right: 50%;
     margin-left: 50%;
     color: white;
-    margin-top: -15.5vh;
+    margin-top: -12.5vh;
     font-size: 65px;
     float: right;
 }
