@@ -5,12 +5,15 @@ import "../styles/LandingPage.css"
 import "../styles/Mobile.css"
 import "../styles/Extras.css"
 import "../styles/animate.css"
+import ToTopButton from './ToTopButton';
+
 
 export default function MasterLayout({children}) {
 
     return (
 
         <div className="MasterLayout">
+            <ToTopButton/>
             <Helmet>
 
                 <meta charset="utf-8"/>
@@ -25,6 +28,7 @@ export default function MasterLayout({children}) {
 
             </Helmet>
             {children}
+            
         </div>
     )
 }

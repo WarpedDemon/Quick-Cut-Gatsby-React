@@ -370,7 +370,7 @@ export default function SingleParrallaxPage() {
               <br/>
               <br/>
               <br/>
-              <h3 id="FAQTitle">Frequently Asked Questions:</h3>
+              <h3 id="FAQTitle"><u>Frequently Asked Questions:</u></h3>
               <br/>
               <br/>
               <ul id="FooterFaq">
