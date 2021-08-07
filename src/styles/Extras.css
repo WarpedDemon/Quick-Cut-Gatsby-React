@@ -7,7 +7,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Faceface';
   font-weight: 600;
 }
-
+hr {
+  width: 80%;
+  margin-left: 10%;
+}
+iframe {
+  border: none;
+  width: 90%;
+}
+.iframeContainer {
+  padding: 10px;
+}
 
 
 /* Other Divs */

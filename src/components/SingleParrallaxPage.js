@@ -214,12 +214,11 @@ export default function SingleParrallaxPage() {
               <hr id="hrRight"/>
               <br/>
               <div>
-                <ul>
+                <div className="iframeContainer">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.030448945579!2d115.74898611515749!3d-31.796920081279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ab649bed9a45%3A0xaf8e27dfbcb3ab1c!2sQuickCut%20Whitfords!5e0!3m2!1sen!2sau!4v1626785614418!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
-                </ul>
+                </div>
                 <br/>
               </div>
-              <br/>
             </div>
           </div>
         </div>
@@ -231,12 +230,12 @@ export default function SingleParrallaxPage() {
               <hr id="hrLeft"/>
               <br/>
               <div>
-                <ul id="ContentContainerLeftContent">
+                <div className="iframeContainer" id="ContentContainerLeftContent">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.416902906192!2d115.87057521515985!3d-31.895268181247328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa0d0e5a0c265bd6!2sQuickCut%20Dianella!5e0!3m2!1sen!2sau!4v1626785581824!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
-                </ul>
+                </div>
                 <br/>
               </div>
-              <br/>
+
             </div>
           </div>
         </div>

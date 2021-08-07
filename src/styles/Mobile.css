@@ -58,7 +58,7 @@
     height: 55vh!important;
   }
 
-  .img6 > div > div, .img1 > div > div,{
+  .img6 > div > div, .img1 > div > div{
     margin-top: -20vh;
     margin-left: 3vw;
   }
@@ -135,14 +135,6 @@
 
   #ContentContainerLeftContent{
     margin-left: -0vw;
-  }
-
-  #hrLeft{
-    width: 90vw;
-  }
-
-  #hrRight{
-    width: 90vw;
   }
 
   #IconContainer {
