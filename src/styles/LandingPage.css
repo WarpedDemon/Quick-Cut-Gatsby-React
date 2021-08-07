@@ -41,6 +41,9 @@ a:hover{
   transform: scale(1.2);
 }
 
+#MobileNavButton:hover{
+  color:black;
+}
 
 #MobileNavButton{
   display: none;
