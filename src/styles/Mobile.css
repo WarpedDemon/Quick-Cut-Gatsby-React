@@ -65,6 +65,7 @@
 
   #MobileNavButton{
     display: flex;
+    margin-top: -2.6vh;
   }
 
   #Phone{
