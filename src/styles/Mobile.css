@@ -39,40 +39,45 @@
   }
 
   .img2{
-    min-height: 150vh!important;
-    height: 150vh!important;
+    min-height: 170vh!important;
+    height: 170vh!important;
   }
 
   .img3{
-    min-height: 150vh!important;
-    height: 150vh!important;
+    min-height: 170vh!important;
+    height: 170vh!important;
   }
 
   .img4{
-    min-height: 175vh!important;
-    height: 175vh!important;
+    min-height: 205vh!important;
+    height: 205vh!important;
   }
 
   .img6{
-    min-height: 85vh!important;
-    height: 85vh!important;
+    min-height: 55vh!important;
+    height: 55vh!important;
+  }
+
+  .img6 > div > div{
+    margin-top: -20vh;
+    margin-left: 3vw;
   }
 
   #Phone{
-    margin-right: -73vw;
-    margin-top: -3.6vh;
+    margin-right: -64vw;
+    margin-top: -2.6vh;
   }
 
   #SocialIcons{
-    display: flex;
+    display: block;
     padding: 5px;
     width: 25vw;
     height: 25vh;
     margin-left: 0vw;
-    margin-top: 22vh;
-    margin-right: 46vw;
+    margin-top: 2vh;
+    margin-right: 37vw;
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     float: right;
   }
 
