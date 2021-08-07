@@ -69,11 +69,7 @@
   }
 
   #SocialIcons{
-<<<<<<< Updated upstream
-    display: block;
-=======
     display: none;
->>>>>>> Stashed changes
     padding: 5px;
     width: 25vw;
     height: 25vh;
