@@ -188,4 +188,8 @@
   #Footer{
     padding:15px;
   }
+
+  .Reveal{
+    display: block;
+  }
 }

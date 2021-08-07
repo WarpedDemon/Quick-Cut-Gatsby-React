@@ -2,6 +2,21 @@ import React from 'react'
 import {Link} from 'gatsby'
 
 export default function SingleParrallaxPage() {
+    var navbar = document.getElementById("MobileNavButton");
+
+    function OpenNavMenu{
+      if(navbar.style.display == "none"){
+        navbar.className + "reveal";
+      }
+      else{
+        navbar.className - "reveal";
+      }
+    }
+
+    function CloseNavBar{
+      navbar.className - "reveal";
+    }
+
     return (
     <div className="Fullpage">
       <div className="PeelParrallax img1" id="img1">
@@ -32,7 +47,7 @@ export default function SingleParrallaxPage() {
                 </div>
               </div>
           </div>
-          <div id="MobileNavButton">☰</div>
+          <div id="MobileNavButton" onclick={OpenNavMenu}>☰</div>
           <a href="tel:040324347" id="Phone">✆</a>
         </div>
 
