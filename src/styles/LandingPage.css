@@ -1,4 +1,5 @@
 * { padding: 0; margin: 0;  font-family: "Abril Fatface", sans-serif;}
+html { scroll-behavior: smooth;}
 body { background-color: 	#FFFAFA; }
 
 iframe{
@@ -30,10 +31,16 @@ a:hover{
   float: right;
   height: 18vh;
   margin-right: 3vw;
-  margin-top: -20.6vh;
+  margin-top: -18vh;
   color: white;
   font-size: 65px;
+  transform: scale(1.0);
+  transition: all 0.3s ease;
 }
+#Phone:hover {
+  transform: scale(1.2);
+}
+
 
 #MobileNavButton{
   display: none;
