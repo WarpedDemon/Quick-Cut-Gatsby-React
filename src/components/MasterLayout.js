@@ -5,6 +5,7 @@ import "../styles/LandingPage.css"
 import "../styles/Mobile.css"
 import "../styles/Extras.css"
 import "../styles/animate.css"
+import "../styles/hamburgers.min.css"
 import ToTopButton from './ToTopButton';
 
 

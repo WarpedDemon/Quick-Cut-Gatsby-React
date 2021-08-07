@@ -15,6 +15,15 @@
     background-color: #ad005c;
     display: none;
   }
+  #Nav a {
+    text-align: center;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #Nav a p {
+    margin-top: 5px;
+  }
 
 
   #PeelParrallaxNav{
@@ -71,7 +80,20 @@
 
   #MobileNavButton{
     display: flex;
-    margin-top: 0vh;
+    margin-top: 4vw;
+    color: white;
+  }
+  #MobileNavButton .hamburger-inner::before {
+    top: 15px;
+  }
+  #MobileNavButton .hamburger-inner::after {
+    top: 30px;
+  }
+  .hamburger-inner,
+  .hamburger-inner::after,
+  .hamburger-inner::before {
+    color: rgb(255, 255, 255) !important;
+    background: rgb(255, 255, 255) !important;
   }
 
   #Phone{

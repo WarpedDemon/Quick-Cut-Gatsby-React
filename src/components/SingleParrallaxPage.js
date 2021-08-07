@@ -4,23 +4,20 @@ import {Link} from 'gatsby'
 export default function SingleParrallaxPage() {
     
 
-    function OpenNavMenu() {
+    function OpenNavMenu(e) {
+      var hamburger = document.getElementById("MobileNavButton")
       var navbar = document.getElementById("Nav");
       console.log(navbar);
       if(navbar.style.display === "none"){
         navbar.style.display = "grid";
-        navbar.style.animation = "SlideIn 1s ease";
+        navbar.style.animation = "SlideIn .6s ease";
+        hamburger.classList.add("is-active");
       }
       else{
-         
-        navbar.animate([{ height: '0px' }], {duration: 1000});
-        setTimeout(()=> {navbar.style.display = "none"; }, 1000);
+        hamburger.classList.remove("is-active");
+        navbar.animate([{ height: '0px' }], {duration: 300});
+        setTimeout(()=> {navbar.style.display = "none"; }, 300);
       }
-    }
-
-    function CloseNavBar() {
-      var navbar = document.getElementById("Nav");
-      navbar.classList.remove("reveal");
     }
 
     return (
@@ -29,11 +26,11 @@ export default function SingleParrallaxPage() {
         <div id="PeelParrallaxNav">
           <div id="IconContainer">
             <div id="Nav">
-              <Link to="#img2">Times</Link>
-              <Link to="#img3">Details</Link>
-              <Link to="#img4">Maps</Link>
-              <Link to="#img6">Before/After</Link>
-              <Link to="#FooterText">FAQ</Link>
+              <Link to="#img2"><p>Times</p></Link>
+              <Link to="#img3"><p>Details</p></Link>
+              <Link to="#img4"><p>Maps</p></Link>
+              <Link to="#img6"><p>Before/After</p></Link>
+              <Link to="#FooterText"><p>FAQ</p></Link>
             </div>
           </div>
           <div id="SocialIcons">
@@ -53,7 +50,11 @@ export default function SingleParrallaxPage() {
                 </div>
               </div>
           </div>
-          <div id="MobileNavButton" onClick={OpenNavMenu}>☰</div>
+          <button id="MobileNavButton" className="hamburger hamburger--elastic" onClick={OpenNavMenu}>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
           <a href="tel:040324347" id="Phone">✆</a>
         </div>
 
