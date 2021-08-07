@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'gatsby'
 
 export default function SingleParrallaxPage() {
-    var navbar = Document.getElementById("MobileNavButton");
+    var navbar = document.getElementById("MobileNavButton");
 
     function OpenNavMenu() {
       if(navbar.style.display == "none"){
