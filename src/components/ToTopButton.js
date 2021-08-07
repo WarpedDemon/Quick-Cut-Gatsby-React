@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 export default function ToTopButton() {
     return (
         <Link to="#img1" id="ToTopButton">
-            <i class="fas fa-arrow-up"></i>
+            <i className="fas fa-arrow-up"></i>
         </Link>
     )
 }

@@ -2,19 +2,25 @@ import React from 'react'
 import {Link} from 'gatsby'
 
 export default function SingleParrallaxPage() {
-    var navbar = document.getElementById("MobileNavButton");
+    
 
     function OpenNavMenu() {
-      if(navbar.style.display == "none"){
-        navbar.className + "reveal";
+      var navbar = document.getElementById("Nav");
+      console.log(navbar);
+      if(navbar.style.display === "none"){
+        navbar.style.display = "grid";
+        navbar.style.animation = "SlideIn 1s ease";
       }
       else{
-        navbar.className - "reveal";
+         
+        navbar.animate([{ height: '0px' }], {duration: 1000});
+        setTimeout(()=> {navbar.style.display = "none"; }, 1000);
       }
     }
 
     function CloseNavBar() {
-      navbar.className - "reveal";
+      var navbar = document.getElementById("Nav");
+      navbar.classList.remove("reveal");
     }
 
     return (
@@ -47,7 +53,7 @@ export default function SingleParrallaxPage() {
                 </div>
               </div>
           </div>
-          <div id="MobileNavButton" onclick={OpenNavMenu}>☰</div>
+          <div id="MobileNavButton" onClick={OpenNavMenu}>☰</div>
           <a href="tel:040324347" id="Phone">✆</a>
         </div>
 

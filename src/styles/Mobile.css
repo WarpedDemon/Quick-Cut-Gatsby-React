@@ -1,15 +1,21 @@
 @media only screen and (max-width: 725px) {
-
+  /* #ad005c */
   html{
     overflow-x: hidden;
   }
 
   #Nav{
     margin-left: 33vw;
-    display: inline-grid;
-    background-color: #bc006e;
+    position: absolute; 
+    right: 10px;
+    top: 10vh;
+    display: grid;
+    height: 25vh;
+    overflow-y: hidden;
+    background-color: #ad005c;
     display: none;
   }
+
 
   #PeelParrallaxNav{
     max-height: 20%;
