@@ -53,12 +53,21 @@ a:hover{
     padding: 5px;
     width: 25vw;
     height: 3vh;
-    margin-right: 50%;
-    margin-left: 50%;
+    margin-right: 52%;
+    margin-left: 48%;
     color: white;
-    margin-top: -12.5vh;
-    font-size: 65px;
+    margin-top: -14vh;
+    font-size: 25px;
     float: right;
+}
+
+#SocialIcons > div{
+  display: flex;
+  margin-right: 1vw;
+}
+
+#SocialIcons > div:nth-child(n) > div{
+  display: flex;
 }
 
 .SocialIconImage{

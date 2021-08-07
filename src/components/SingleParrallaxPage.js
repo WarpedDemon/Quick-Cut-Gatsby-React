@@ -16,11 +16,21 @@ export default function SingleParrallaxPage() {
             </div>
           </div>
           <div id="SocialIcons">
-              <Link to="https://www.facebook.com/quickcutd"><div className="SocialIconImage Facebook"></div></Link>
-              <Link to="https://www.facebook.com/quickcutWA"><div className="SocialIconImage Facebook"></div></Link>
-              <Link to="https://www.instagram.com/quickcuts_dianella/"><div className="SocialIconImage Insta"></div></Link>
-              <Link to="https://g.page/qyickcutw?share"><div className="SocialIconImage GMB"></div></Link>
-              <Link to="https://g.page/quickcutd?share"><div className="SocialIconImage GMB"></div></Link>
+              <div>
+                Whitfords:
+                <div>
+                  <Link to="https://www.facebook.com/quickcutWA"><div className="SocialIconImage Facebook"></div></Link>
+                  <Link to="https://g.page/qyickcutw?share"><div className="SocialIconImage GMB"></div></Link>
+                </div>
+              </div>
+              <div>
+                Dianella:
+                <div>
+                  <Link to="https://www.instagram.com/quickcuts_dianella/"><div className="SocialIconImage Insta"></div></Link>
+                  <Link to="https://www.facebook.com/quickcutd"><div className="SocialIconImage Facebook"></div></Link>
+                  <Link to="https://g.page/quickcutd?share"><div className="SocialIconImage GMB"></div></Link>
+                </div>
+              </div>
           </div>
           <a href="tel:040324347" id="Phone">✆</a>
         </div>
