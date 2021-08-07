@@ -35,6 +35,15 @@ a:hover{
   font-size: 65px;
 }
 
+#MobileNavButton{
+  display: none;
+  float: right;
+  height: 18vh;
+  margin-right: 3vw;
+  color: white;
+  font-size: 65px;
+}
+
 #FAQTitle{
   color:#bc006e;
 }

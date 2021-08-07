@@ -32,6 +32,7 @@ export default function SingleParrallaxPage() {
                 </div>
               </div>
           </div>
+          <div id="MobileNavButton">☰</div>
           <a href="tel:040324347" id="Phone">✆</a>
         </div>
 
