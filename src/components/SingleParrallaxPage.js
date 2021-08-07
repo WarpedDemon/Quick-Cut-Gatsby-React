@@ -7,8 +7,7 @@ export default function SingleParrallaxPage() {
     function OpenNavMenu(e) {
       var hamburger = document.getElementById("MobileNavButton")
       var navbar = document.getElementById("Nav");
-      console.log(navbar);
-      if(navbar.style.display === "none"){
+      if(navbar.style.display == "none" || navbar.style.display == ""){
         navbar.style.display = "grid";
         navbar.style.animation = "SlideIn .6s ease";
         hamburger.classList.add("is-active");
