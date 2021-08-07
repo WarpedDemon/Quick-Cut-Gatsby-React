@@ -70,7 +70,7 @@ a{
   font-weight: 300;
 }
 
-#ConentContainer{
+#ContentContainer{
   margin-left: 35%;
 }
 
@@ -86,13 +86,13 @@ a{
   height: 100vw;
 }
 
-#ConentContainerLeft{
+#ContentContainerLeft{
   float: left;
   margin-left: 10vw;
   margin-top: 30vh;
 }
 
-#ConentContainerRight{
+#ContentContainerRight{
   float: right;
   margin-right: 10vw;
   margin-top: 30vh;

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContentBox({title, content}) {
     return (
-        <div id="ConentContainer">
+        <div id="ContentContainer">
             <div id="IntroContentBox">
                 <div id="MainContent">
                     <h2 id="MainConentTitleLeft">{title}</h2>

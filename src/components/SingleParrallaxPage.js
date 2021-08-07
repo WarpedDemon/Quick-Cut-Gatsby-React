@@ -5,16 +5,17 @@ import Navbar from './Navbar'
 export default function SingleParrallaxPage() {
     return (
     <div className="Fullpage">
-      <div className="PeelParrallax img1">
-        <Navbar/>
+      <Navbar/>
+      <div className="PeelParrallax img1" style={{position: "absolute"}}>
+        
 
         <div className="Spacer"></div>
 
-        <div id="ConentContainer">
+        <div id="ContentContainer">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h1 id="MainConentTitle">Quick & Cheap</h1>
-              <h2 id="MainConentTitle">Professional Haircuts Perth</h2>
+              <h1 id="MainContentTitle">Quick & Cheap</h1>
+              <h2 id="MainContentTitle">Professional Haircuts Perth</h2>
               <hr/>
               <br/>
               <Link to="#Top"></Link>
@@ -26,10 +27,10 @@ export default function SingleParrallaxPage() {
       </div>
       
       <div className="PeelParrallax img2">
-        <div id="ConentContainerRight">
+        <div id="ContentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleRight">Whitfords Opening Times</h2>
+              <h2 id="MainContentTitleRight">Whitfords Opening Times</h2>
               <hr id="hrRight"/>
               <br/>
               <div>
@@ -68,10 +69,10 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ContentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleLeft">Dianella Opening Times</h2>
+              <h2 id="MainContentTitleLeft">Dianella Opening Times</h2>
               <hr id="hrLeft"/>
               <br/>
               <div>
@@ -113,10 +114,10 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallax img3">
-        <div id="ConentContainerRight">
+        <div id="ContentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleRight">Whitfords Details</h2>
+              <h2 id="MainContentTitleRight">Whitfords Details</h2>
               <hr id="hrRight"/>
               <br/>
               <div>
@@ -144,10 +145,10 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ContentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleLeft">Dianella Details</h2>
+              <h2 id="MainContentTitleLeft">Dianella Details</h2>
               <hr id="hrLeft"/>
               <br/>
               <div>
@@ -180,10 +181,10 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallax img4">
-        <div id="ConentContainerRight">
+        <div id="ContentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleRight">Whitfords On Maps</h2>
+              <h2 id="MainContentTitleRight">Whitfords On Maps</h2>
               <hr id="hrRight"/>
               <br/>
               <div>
@@ -197,10 +198,10 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ContentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleLeft">Dianella On Maps</h2>
+              <h2 id="MainContentTitleLeft">Dianella On Maps</h2>
               <hr id="hrLeft"/>
               <br/>
               <div>
@@ -220,11 +221,11 @@ export default function SingleParrallaxPage() {
 
       <div className="PeelParrallax img6">
         <div className="Spacer"></div>
-        <div id="ConentContainer">
+        <div id="ContentContainer">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitle">Before and After Shot</h3>
-              <h2 id="MainConentTitle">Professional Haircuts Perth</h2>
+              <h3 id="MainContentTitle">Before and After Shot</h3>
+              <h2 id="MainContentTitle">Professional Haircuts Perth</h2>
               <hr/>
               <br/>
               <p></p>
@@ -234,10 +235,10 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallax img5">
-        <div id="ConentContainerRight">
+        <div id="ContentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitleRight">Hair Cut After</h3>
+              <h3 id="MainContentTitleRight">Hair Cut After</h3>
               <hr id="hrRight"/>
               <br/>
               <div>
@@ -249,10 +250,10 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ContentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
+              <h3 id="MainContentTitleLeft">Hair Cut Before</h3>
               <hr id="hrLeft"/>
               <br/>
               <div>
@@ -266,10 +267,10 @@ export default function SingleParrallaxPage() {
 
         <div className="Spacer"></div>
 
-        <div id="ConentContainerRight">
+        <div id="ContentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitleRight">Hair Cut After</h3>
+              <h3 id="MainContentTitleRight">Hair Cut After</h3>
               <hr id="hrRight"/>
               <br/>
               <div>
@@ -281,10 +282,10 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ContentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
+              <h3 id="MainContentTitleLeft">Hair Cut Before</h3>
               <hr id="hrLeft"/>
               <br/>
               <div>
@@ -298,10 +299,10 @@ export default function SingleParrallaxPage() {
 
         <div className="Spacer"></div>
 
-        <div id="ConentContainerRight">
+        <div id="ContentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitleRight">Hair Cut After</h3>
+              <h3 id="MainContentTitleRight">Hair Cut After</h3>
               <hr id="hrRight"/>
               <br/>
               <div>
@@ -313,10 +314,10 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ContentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
+              <h3 id="MainContentTitleLeft">Hair Cut Before</h3>
               <hr id="hrLeft"/>
               <br/>
               <div>
