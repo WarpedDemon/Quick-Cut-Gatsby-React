@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 export default function SingleParrallaxPage() {
     var navbar = document.getElementById("MobileNavButton");
 
-    function OpenNavMenu{
+    function OpenNavMenu(){
       if(navbar.style.display == "none"){
         navbar.className + "reveal";
       }
