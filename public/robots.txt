@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://quickcut.netlify.app/sitemap/sitemap.xml
+Host: https://quickcut.netlify.app

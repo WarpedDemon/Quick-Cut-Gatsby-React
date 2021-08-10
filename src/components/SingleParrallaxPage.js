@@ -7,7 +7,7 @@ export default function SingleParrallaxPage() {
     function OpenNavMenu(e) {
       var hamburger = document.getElementById("MobileNavButton")
       var navbar = document.getElementById("Nav");
-      if(navbar.style.display == "none" || navbar.style.display == ""){
+      if(navbar.style.display === "none" || navbar.style.display === ""){
         navbar.style.display = "grid";
         navbar.style.animation = "SlideIn .6s ease";
         hamburger.classList.add("is-active");
@@ -49,7 +49,7 @@ export default function SingleParrallaxPage() {
                 </div>
               </div>
           </div>
-          <button id="MobileNavButton" className="hamburger hamburger--elastic" onClick={OpenNavMenu}>
+          <button id="MobileNavButton" className="hamburger hamburger--elastic" aria-label="Mobile Menu Drop down button" onClick={OpenNavMenu}>
             <span className="hamburger-box">
               <span className="hamburger-inner"></span>
             </span>
@@ -81,31 +81,25 @@ export default function SingleParrallaxPage() {
               <hr id="hrRight"/>
               <br/>
               <div>
-                <ul>
+                <ul className="TimeContainer">
                   <li>
                   Monday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Tuesday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Wednesday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Thursday: 9am to 5:30pm
                   </li>
-                  <br/>
                   <li>
                   Friday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Saturday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Sunday: 11am to 5pm
                   </li>
@@ -123,31 +117,25 @@ export default function SingleParrallaxPage() {
               <hr id="hrLeft"/>
               <br/>
               <div>
-                <ul id="ContentContainerLeftContent">
+                <ul className="TimeContainer">
                   <li>
                   Monday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Tuesday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Wednesday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Thursday: 9am to 5:30pm
                   </li>
-                  <br/>
                   <li>
                   Friday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Saturday: 9am to 5pm
                   </li>
-                  <br/>
                   <li>
                   Sunday: 11am to 5pm
                   </li>
@@ -168,7 +156,7 @@ export default function SingleParrallaxPage() {
               <hr id="hrRight"/>
               <br/>
               <div>
-                <ul>
+                <div>
                   <u>Phone:</u>
                   <br/>
                   <br/>
@@ -185,7 +173,7 @@ export default function SingleParrallaxPage() {
                   <br/>
                   <br/>
                   Email:jngo@jgup.com.au
-                </ul>
+                </div>
                 <br/>
               </div>
             </div>
@@ -199,7 +187,7 @@ export default function SingleParrallaxPage() {
               <hr id="hrLeft"/>
               <br/>
               <div>
-                <ul id="ContentContainerLeftContent">
+                <div>
                   <u>Phone:</u>
                   <br/>
                   <br/>
@@ -216,7 +204,7 @@ export default function SingleParrallaxPage() {
                   <br/>
                   <br/>
                   Email: jngo@jgup.com.au
-                </ul>
+                </div>
                 <br/>
               </div>
             </div>
@@ -236,7 +224,7 @@ export default function SingleParrallaxPage() {
               <br/>
               <div>
                 <div className="iframeContainer">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.030448945579!2d115.74898611515749!3d-31.796920081279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ab649bed9a45%3A0xaf8e27dfbcb3ab1c!2sQuickCut%20Whitfords!5e0!3m2!1sen!2sau!4v1626785614418!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
+                  <iframe title="Whitfords Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.030448945579!2d115.74898611515749!3d-31.796920081279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ab649bed9a45%3A0xaf8e27dfbcb3ab1c!2sQuickCut%20Whitfords!5e0!3m2!1sen!2sau!4v1626785614418!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
                 </div>
                 <br/>
               </div>
@@ -252,7 +240,7 @@ export default function SingleParrallaxPage() {
               <br/>
               <div>
                 <div className="iframeContainer" id="ContentContainerLeftContent">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.416902906192!2d115.87057521515985!3d-31.895268181247328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa0d0e5a0c265bd6!2sQuickCut%20Dianella!5e0!3m2!1sen!2sau!4v1626785581824!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
+                  <iframe title="Dianella Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.416902906192!2d115.87057521515985!3d-31.895268181247328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa0d0e5a0c265bd6!2sQuickCut%20Dianella!5e0!3m2!1sen!2sau!4v1626785581824!5m2!1sen!2sau" width={"600"} height={"450"} allowFullScreen={""} loading={"lazy"}></iframe>
                 </div>
                 <br/>
               </div>
@@ -380,7 +368,7 @@ export default function SingleParrallaxPage() {
 
         <div id="Footer">
           <hr id="FooterRibben"/>
-          <Link to="#Footer"></Link>
+
           <div id="FooterContent">
             <div id="FooterText">
               Thanks for visiting Quick Cuts!
@@ -390,27 +378,20 @@ export default function SingleParrallaxPage() {
               <br/>
               <br/>
               <br/>
-              <h3 id="FAQTitle"><u>Frequently Asked Questions:</u></h3>
+              <h3 className="FAQTitle"><u>Frequently Asked Questions:</u></h3>
               <br/>
               <br/>
               <ul id="FooterFaq">
                 <li>Does Quick Cuts currently offer any products?</li>
-                <br/>
                 <li>    -    No Quick Cuts does not sell any products.</li>
-                <br/>
-                <br/>
                 <li>Does Quick Cuts currently offer any bookings?</li>
-                <br/>
                 <li>    -    No Quick Cuts does not offer any bookings.</li>
-                <br/>
-                <br/>
                 <li>Is Quick Cuts a walk in only business?</li>
-                <br/>
                 <li>    -    Yes Quick Cuts is a walk in business.</li>
               </ul>
               <br/>
               <br/>
-              <Link to="#img1" id="FAQTitle">Back To Top</Link>
+              <Link to="#img1" className="FAQTitle">Back To Top</Link>
             </div>
           </div>
         </div>

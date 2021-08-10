@@ -15,11 +15,13 @@ export default function MasterLayout({children}) {
 
         <div className="MasterLayout">
             <ToTopButton/>
-            <Helmet>
-
+            <Helmet htmlAttributes={{
+                lang: 'en',
+            }}>
+                <title>Quick & Cheap Hair Cuts Perth | Hairdressing | Quick Cut</title>
                 <meta charset="utf-8"/>
                 <meta property="title" content={"Quick & Cheap Hair Cuts Perth | Hairdressing | Quick Cut"}/>
-
+                <meta name="description" content="Quick & Cheap Hair Cuts in Perth. No booking hair-dressing services."/>
                 <meta name="author" content="James Nicholas Noonan"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta property="url" content="https://nelgara.com.au"/>
