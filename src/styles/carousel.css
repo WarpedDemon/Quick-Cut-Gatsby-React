@@ -1,0 +1,74 @@
+
+
+#BA_Carousel { /* Before / After Carousel */
+    width: 100%;
+    height: 110vh;
+}
+
+#Carousel_Controls {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    margin: 0 !important;
+    z-index: 10000;
+}
+#Carousel_Controls div i {
+    transition: all 0.3s ease;
+}
+#Carousel_Control_Left {
+    float: left;
+    height: 110vh;
+    width: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+#Carousel_Control_Left:hover i {
+    transform: scale(1.5);
+}
+
+#Carousel_Control_Right {
+    float: right;
+    height: 110vh;
+    width: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+#Carousel_Control_Right:hover i {
+    transform: scale(1.5) rotateZ(180deg);
+}
+
+#Carousel_Control_Right i {
+    transform: rotateZ(180deg);
+}
+.Control_Button i {
+    margin-top: 50vh;
+}
+
+
+.Carousel_Info {
+    position: relative;
+    top: 101vh;
+    color: white;
+}
+#Carousel_Info_Box {
+    border-radius: 10%;
+    padding: 10px 12px 10px 10px;
+    background-color: rgba(0,0,0,0.45);
+}
+
+
+
+.carouselHeader {
+    position: absolute;
+    padding-top: 40px;
+}
+
+#BA_Content {
+    height: auto;
+    margin-top: -20px;
+}

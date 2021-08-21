@@ -257,7 +257,6 @@ h3{
 .img5{
   /* The image used */
   background-color: white;
-  min-height: 350vh!important;
 }
 
 .img6{
@@ -282,7 +281,6 @@ h3{
 }
 
 #Footer{
-  margin-top: 175vh;
   color:#bc006e;
 }
 
@@ -312,6 +310,7 @@ h3{
 }
 
 .FAQTitle{
+  padding-bottom: 50px;
   font-size: 35px;
   text-align: center;
   color:#bc006e;

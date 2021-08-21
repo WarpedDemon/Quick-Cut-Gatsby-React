@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import Carousel from './Carousel';
 
 export default function SingleParrallaxPage() {
     
@@ -254,118 +255,22 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallax img6" id="img6">
-        <div className="Spacer"></div>
-        <div id="ConentContainer">
+        <div id="ConentContainer" className="carouselHeader">
           <div id="IntroContentBox">
             <div id="MainContent">
               <h3 id="MainConentTitle">Before and After Shot</h3>
               <h2 id="MainConentTitle">Professional Haircuts Perth</h2>
               <hr/>
               <br/>
-              <p></p>
             </div>
           </div>
         </div>
+
+        {/* Carousel Item */} 
+        <Carousel />
       </div>
 
       <div className="PeelParrallax img5">
-        <div id="ConentContainerRight">
-          <div id="IntroContentBox">
-            <div id="MainContent">
-              <h3 id="MainConentTitleRight">Hair Cut After</h3>
-              <hr id="hrRight"/>
-              <br/>
-              <div>
-                <div className="Before"></div>
-                <br/>
-              </div>
-              <br/>
-            </div>
-          </div>
-        </div>
-
-        <div id="ConentContainerLeft">
-          <div id="IntroContentBox">
-            <div id="MainContent">
-              <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
-              <hr id="hrLeft"/>
-              <br/>
-              <div>
-                <div className="After"></div>
-                <br/>
-              </div>
-              <br/>
-            </div>
-          </div>
-        </div>
-
-        <div className="Spacer"></div>
-
-        <div id="ConentContainerRight">
-          <div id="IntroContentBox">
-            <div id="MainContent">
-              <h3 id="MainConentTitleRight">Hair Cut After</h3>
-              <hr id="hrRight"/>
-              <br/>
-              <div>
-                <div className="Before"></div>
-                <br/>
-              </div>
-              <br/>
-            </div>
-          </div>
-        </div>
-
-        <div id="ConentContainerLeft">
-          <div id="IntroContentBox">
-            <div id="MainContent">
-              <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
-              <hr id="hrLeft"/>
-              <br/>
-              <div>
-                <div className="After"></div>
-                <br/>
-              </div>
-              <br/>
-            </div>
-          </div>
-        </div>
-
-        <div className="Spacer"></div>
-
-        <div id="ConentContainerRight">
-          <div id="IntroContentBox">
-            <div id="MainContent">
-              <h3 id="MainConentTitleRight">Hair Cut After</h3>
-              <hr id="hrRight"/>
-              <br/>
-              <div>
-                <div className="Before"></div>
-                <br/>
-              </div>
-              <br/>
-            </div>
-          </div>
-        </div>
-
-        <div id="ConentContainerLeft">
-          <div id="IntroContentBox">
-            <div id="MainContent">
-              <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
-              <hr id="hrLeft"/>
-              <br/>
-              <div>
-                <div className="After"></div>
-                <br/>
-              </div>
-              <br/>
-            </div>
-          </div>
-        </div>
-
-        <div className="Spacer"></div>
-        <div className="Spacer"></div>
-
         <div id="Footer">
           <hr id="FooterRibben"/>
 
@@ -396,7 +301,6 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div className="Spacer"></div>
       </div>
 
     </div>
