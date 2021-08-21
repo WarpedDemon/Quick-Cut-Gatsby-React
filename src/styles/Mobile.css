@@ -51,8 +51,8 @@
 
   #MainContent > p{
     width: 80vw;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 23px;
+    font-weight: 400;
   }
 
   .img1{
@@ -152,19 +152,19 @@
   }
 
   #MainConentTitleLeft{
-    width: 90vw;
+    width: 80vw;
   }
 
   #FooterLogo{
     float: left;
-    width:47vw;
+    width: 47vw;
     height: 17vh;
     margin-left: 22vw;
     margin-top: 35px;
   }
 
   #MainConentTitleRight{
-    width: 90vw;
+    width: 80vw;
   }
 
   #ContentContainerRightContent{
