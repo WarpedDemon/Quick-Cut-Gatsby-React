@@ -265,6 +265,12 @@ h3{
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_45.jpg");
 }
 
+.PriceGuide{
+  /* The image used */
+  background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_24.jpg");
+  min-height: 350vh!important;
+}
+
 .Before{
   background-position: center;
   background-repeat: no-repeat;
