@@ -39,6 +39,7 @@ a:hover{
   transform: scale(1.0);
   transition: all 0.3s ease;
 }
+
 #Phone:hover {
   transform: scale(1.2);
 }
@@ -307,6 +308,7 @@ h3{
   text-align: center;
   font-size: 35px;
 }
+
 #FooterFaq li {
   margin-bottom: 50px;
 }
@@ -327,6 +329,7 @@ h3{
   margin-left: 45vw;
   background-image: url("/img/QuickCutWLogo.png");
 }
+
 .TimeContainer li {
   margin-bottom: 25px;
 }

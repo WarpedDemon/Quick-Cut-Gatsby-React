@@ -6,7 +6,7 @@
 
   #Nav{
     margin-left: 33vw;
-    position: absolute; 
+    position: absolute;
     right: 10px;
     top: 10vh;
     display: grid;
@@ -15,12 +15,14 @@
     background-color: #ad005c;
     display: none;
   }
+
   #Nav a {
     text-align: center;
     font-size: 22px;
     padding-left: 10px;
     padding-right: 10px;
   }
+
   #Nav a p {
     margin-top: 5px;
   }
@@ -43,7 +45,7 @@
   }
 
   #MainContent > p{
-    width: 90vw;
+    width: 80vw;
     font-size: 20px;
     font-weight: 200;
   }
@@ -83,9 +85,11 @@
     margin-top: 4vw;
     color: white;
   }
+
   #MobileNavButton .hamburger-inner::before {
     top: 15px;
   }
+
   #MobileNavButton .hamburger-inner::after {
     top: 30px;
   }
@@ -138,7 +142,7 @@
   }
 
   #MainConentTitle{
-    width: 90vw;
+    width: 80vw;
   }
 
   #MainConentTitleLeft{
