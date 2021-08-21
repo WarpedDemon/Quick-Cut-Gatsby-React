@@ -13,7 +13,7 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: black!important;
+  color: #e21385!important;
 }
 
 #Nav{
@@ -268,7 +268,8 @@ h3{
 .PriceGuide{
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_24.jpg");
-  min-height: 200vh!important;
+  min-height: 270vh!important;
+  margin-top: -515px;
 }
 
 .Before{
