@@ -33,6 +33,15 @@
     margin-top: 5px;
   }
 
+  .PriceGuide {
+      background-image: url(/img/QuickCuts_FirstShoot-Whitfords_FullRes_24.jpg);
+      margin-top: -100px;
+      min-height: 75vh!important;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+
   #PeelParrallaxNav{
     background-repeat: no-repeat;
     background-image: url("/img/quickcutheader.svg");
