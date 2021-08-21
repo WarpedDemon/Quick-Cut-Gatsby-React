@@ -4,6 +4,11 @@
     overflow-x: hidden;
   }
 
+  hr {
+      margin-left: 6vw !important;
+      width: 80% !important;
+  }
+
   #Nav{
     margin-left: 33vw;
     position: absolute;
@@ -127,10 +132,6 @@
     height: auto;
     background-color: #bc006e;
     color: white;
-  }
-
-  hr {
-      width: 100%;
   }
 
   h1{
