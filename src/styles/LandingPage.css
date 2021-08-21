@@ -19,7 +19,7 @@ a:hover{
 #Nav{
   display: block;
   margin-top: 1vh;
-  margin-left: 20vw;
+  margin-left: 12vw;
   font-size: 25px;
   float: left;
 }
@@ -33,7 +33,7 @@ a:hover{
   float: right;
   height: 18vh;
   margin-right: 3vw;
-  margin-top: -18vh;
+  margin-top: -20vh;
   color: white;
   font-size: 65px;
   transform: scale(1.0);
@@ -58,11 +58,10 @@ a:hover{
   font-size: 65px;
 }
 
-
 #IconContainer {
     height: 18vh;
     margin-right: 3vw;
-    margin-top: 2vh;
+    margin-top: 14vh;
     color: white;
     font-size: 65px;
     float: left;
@@ -73,8 +72,7 @@ a:hover{
     padding: 5px;
     width: 25vw;
     height: 3vh;
-    margin-right: 52%;
-    margin-left: 48%;
+    margin-right: 60vw;
     color: white;
     margin-top: -14vh;
     font-size: 25px;
@@ -195,9 +193,9 @@ h3{
 
 #PeelParrallaxNav{
   background-repeat: no-repeat;
-  background-image: url("/img/Quick-Cuts-Header.png");
+  background-image: url("/img/quickcutheader.svg");
 
-  height:25vh;
+  height:39vh;
   width:90vw;
 
   background-size: cover;
@@ -207,6 +205,7 @@ h3{
   top: 0;
   left: 0;
   transform-origin: center;
+  margin-top: -9vh;
 }
 
 .PeelParrallax{
