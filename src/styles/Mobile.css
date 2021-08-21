@@ -4,9 +4,15 @@
     overflow-x: hidden;
   }
 
+  hr {
+      margin-left: 6vw !important;
+      width: 80% !important;
+  }
+
   #Nav{
+    margin-top: 12vh;
     margin-left: 33vw;
-    position: absolute; 
+    position: absolute;
     right: 10px;
     top: 10vh;
     display: grid;
@@ -15,20 +21,42 @@
     background-color: #ad005c;
     display: none;
   }
+
   #Nav a {
     text-align: center;
     font-size: 22px;
     padding-left: 10px;
     padding-right: 10px;
   }
+
   #Nav a p {
     margin-top: 5px;
   }
 
+  .PriceGuide {
+      background-image: url(/img/QuickCuts_FirstShoot-Whitfords_FullRes_24.jpg);
+      margin-top: -100px;
+      min-height: 75vh!important;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
 
   #PeelParrallaxNav{
-    max-height: 20%;
+    background-repeat: no-repeat;
+    background-image: url("/img/quickcutheader.svg");
+
+    height:39vh;
+    width:90vw;
+
+    background-size: cover;
+
+    max-height: 30%;
     min-height: 20%;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+    margin-top: -9vh;
   }
 
   .PeelParrallax{
@@ -43,9 +71,9 @@
   }
 
   #MainContent > p{
-    width: 90vw;
-    font-size: 20px;
-    font-weight: 200;
+    width: 80vw;
+    font-size: 23px;
+    font-weight: 400;
   }
 
   .img1{
@@ -80,12 +108,14 @@
 
   #MobileNavButton{
     display: flex;
-    margin-top: 4vw;
+    margin-top: 11vh;
     color: white;
   }
+
   #MobileNavButton .hamburger-inner::before {
     top: 15px;
   }
+
   #MobileNavButton .hamburger-inner::after {
     top: 30px;
   }
@@ -98,7 +128,7 @@
 
   #Phone{
     margin-right: 0;
-    margin-top: 0vh;
+    margin-top: 10vh;
   }
 
   #SocialIcons{
@@ -123,6 +153,7 @@
     height: auto;
     background-color: #bc006e;
     color: white;
+    margin-left: 5vw;
   }
 
   h1{
@@ -138,23 +169,23 @@
   }
 
   #MainConentTitle{
-    width: 90vw;
+    width: 80vw;
   }
 
   #MainConentTitleLeft{
-    width: 90vw;
+    width: 80vw;
   }
 
   #FooterLogo{
     float: left;
-    width:47vw;
+    width: 47vw;
     height: 17vh;
     margin-left: 22vw;
     margin-top: 35px;
   }
 
   #MainConentTitleRight{
-    width: 90vw;
+    width: 80vw;
   }
 
   #ContentContainerRightContent{
@@ -182,7 +213,7 @@
     margin-top: 5vh;
     margin-left: 5vw;
     margin-right: 0;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .cancelMarginLeft {
@@ -194,7 +225,7 @@
     margin-top: 5vh;
     margin-left: 5vw;
     margin-right: 0;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   #FooterRibben{

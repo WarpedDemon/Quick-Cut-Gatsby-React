@@ -19,7 +19,7 @@ a:hover{
 #Nav{
   display: block;
   margin-top: 1vh;
-  margin-left: 20vw;
+  margin-left: 12vw;
   font-size: 25px;
   float: left;
 }
@@ -33,12 +33,13 @@ a:hover{
   float: right;
   height: 18vh;
   margin-right: 3vw;
-  margin-top: -18vh;
+  margin-top: -20vh;
   color: white;
   font-size: 65px;
   transform: scale(1.0);
   transition: all 0.3s ease;
 }
+
 #Phone:hover {
   transform: scale(1.2);
 }
@@ -57,11 +58,10 @@ a:hover{
   font-size: 65px;
 }
 
-
 #IconContainer {
     height: 18vh;
     margin-right: 3vw;
-    margin-top: 2vh;
+    margin-top: 14vh;
     color: white;
     font-size: 65px;
     float: left;
@@ -72,8 +72,7 @@ a:hover{
     padding: 5px;
     width: 25vw;
     height: 3vh;
-    margin-right: 52%;
-    margin-left: 48%;
+    margin-right: 60vw;
     color: white;
     margin-top: -14vh;
     font-size: 25px;
@@ -173,7 +172,7 @@ ul{
   text-align: center;
   font-size: 25px;
   font-weight: 400;
-  box-shadow: -15px 15px 0px 0px black;
+  box-shadow: -15px 15px 0px 0px #e21385;
   border-radius: 15px;
 }
 
@@ -194,9 +193,9 @@ h3{
 
 #PeelParrallaxNav{
   background-repeat: no-repeat;
-  background-image: url("/img/Quick-Cuts-Header.png");
+  background-image: url("/img/QuickCutSmallHeader.svg");
 
-  height:25vh;
+  height:39vh;
   width:90vw;
 
   background-size: cover;
@@ -206,6 +205,7 @@ h3{
   top: 0;
   left: 0;
   transform-origin: center;
+  margin-top: -9vh;
 }
 
 .PeelParrallax{
@@ -264,6 +264,13 @@ h3{
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_45.jpg");
 }
 
+.PriceGuide{
+  /* The image used */
+  background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_24.jpg");
+  min-height: 270vh!important;
+  margin-top: -515px;
+}
+
 .Before{
   background-position: center;
   background-repeat: no-repeat;
@@ -305,6 +312,7 @@ h3{
   text-align: center;
   font-size: 35px;
 }
+
 #FooterFaq li {
   margin-bottom: 50px;
 }
@@ -326,6 +334,7 @@ h3{
   margin-left: 45vw;
   background-image: url("/img/QuickCutWLogo.png");
 }
+
 .TimeContainer li {
   margin-bottom: 25px;
 }

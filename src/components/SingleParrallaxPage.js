@@ -3,7 +3,7 @@ import {Link} from 'gatsby'
 import Carousel from './Carousel';
 
 export default function SingleParrallaxPage() {
-    
+
 
     function OpenNavMenu(e) {
       var hamburger = document.getElementById("MobileNavButton")
@@ -29,7 +29,7 @@ export default function SingleParrallaxPage() {
               <Link to="#img2"><p>Times</p></Link>
               <Link to="#img3"><p>Details</p></Link>
               <Link to="#img4"><p>Maps</p></Link>
-              <Link to="#img6"><p>Before/After</p></Link>
+              <Link to="#img6"><p>Gallery</p></Link>
               <Link to="#FooterText"><p>FAQ</p></Link>
             </div>
           </div>
@@ -72,6 +72,9 @@ export default function SingleParrallaxPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="PriceGuide" id="PriceGuide">
       </div>
 
       <div className="PeelParrallax img2" id="img2">
@@ -258,8 +261,7 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainer" className="carouselHeader">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h3 id="MainConentTitle">Before and After Shot</h3>
-              <h2 id="MainConentTitle">Professional Haircuts Perth</h2>
+              <h3 id="MainConentTitle">Gallery</h3>
               <hr/>
               <br/>
             </div>
@@ -276,13 +278,6 @@ export default function SingleParrallaxPage() {
 
           <div id="FooterContent">
             <div id="FooterText">
-              Thanks for visiting Quick Cuts!
-              <br/>
-              <br/>
-              Please save us in your bookmarks!
-              <br/>
-              <br/>
-              <br/>
               <h3 className="FAQTitle"><u>Frequently Asked Questions:</u></h3>
               <br/>
               <br/>
@@ -294,6 +289,13 @@ export default function SingleParrallaxPage() {
                 <li>Is Quick Cuts a walk in only business?</li>
                 <li>    -    Yes Quick Cuts is a walk in business.</li>
               </ul>
+              <br/>
+              <br/>
+              Thanks for visiting Quick Cuts!
+              <br/>
+              <br/>
+              Please save us in your bookmarks!
+              <br/>
               <br/>
               <br/>
               <Link to="#img1" className="FAQTitle">Back To Top</Link>
