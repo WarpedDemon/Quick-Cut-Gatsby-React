@@ -74,10 +74,6 @@ export default function SingleParrallaxPage() {
         </div>
       </div>
 
-/*
-      <div className="PriceGuide" id="PriceGuide">
-      </div>
-*/
       <div className="PeelParrallax img2" id="img2">
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
