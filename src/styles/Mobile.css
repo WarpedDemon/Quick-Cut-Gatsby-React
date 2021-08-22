@@ -174,7 +174,7 @@
   }
 
   #MainConentTitle, #MainConentTitleLeft, #MainConentTitleRight{
-    width: 88vw;
+    width: 80vw;
   }
 
   #FooterLogo{
@@ -184,7 +184,7 @@
     margin-left: 22vw;
     margin-top: 35px;
   }
-  
+
   #ContentContainerRightContent{
     margin-right: -0vw;
   }
