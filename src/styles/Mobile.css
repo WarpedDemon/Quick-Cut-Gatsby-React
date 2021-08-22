@@ -1,5 +1,11 @@
 @media only screen and (max-width: 725px) {
   /* #ad005c */
+  
+  /*
+    Main Css File
+      Please find other css files such as mobile etc.
+  */
+
   html{
     overflow-x: hidden;
   }
