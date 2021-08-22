@@ -175,6 +175,7 @@
 
   #MainConentTitle, #MainConentTitleLeft, #MainConentTitleRight{
     width: 80vw;
+    margin: auto;
   }
 
   #FooterLogo{
