@@ -1,6 +1,6 @@
 @media only screen and (max-width: 725px) {
   /* #ad005c */
-  
+
   /*
     Main Css File
       Please find other css files such as mobile etc.
@@ -262,27 +262,29 @@
     display: block;
   }
 
-
   /* CAROUSEL Styling */
   .carouselHeader {
     margin-top: 20vh;
     margin-left: 2vw !important;
   }
+
   .Control_Button i {
     margin-top: 90vh !important;
-}
-
+  }
 
   .BA_Content {
     margin-top: 100px !important;
   }
+
   #Carousel_Control_Left,
   #Carousel_Control_Right {
     height: 185vh !important;
   }
+
   .Carousel_Info {
     top: 174vh !important;
   }
+
   .BeforeAfter {
     margin-top: 200px !important;
   }

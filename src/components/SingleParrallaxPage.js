@@ -256,7 +256,7 @@ export default function SingleParrallaxPage() {
 
       <div className="PeelParrallax img6" id="img6">
         <div id="ConentContainer" className="carouselHeader">
-          <div id="IntroContentBox">
+          <div id="IntroContentBox Gallery">
             <div id="MainContent">
               <h3 id="MainConentTitle">Gallery</h3>
               <hr/>

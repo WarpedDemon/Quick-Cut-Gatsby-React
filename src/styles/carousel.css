@@ -1,6 +1,8 @@
+#Gallary{
+  margin-top: 5vh;
+}
 
-
-#BA_Carousel { /* Before / After Carousel */
+#BA_Carousel {
     width: 100%;
     height: 110vh;
 }
@@ -15,15 +17,21 @@
     margin: 0 !important;
     z-index: 10000;
 }
+
 #Carousel_Controls div i {
     transition: all 0.3s ease;
 }
+
 #Carousel_Control_Left {
     float: left;
     height: 110vh;
     width: 100px;
+    /* Cool! but too dark for this design the white makes adding shadow nearly impossible without the black coming across as too bold.
+    We could try use the designs colour.
+
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(270deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
+    */
 }
 
 #Carousel_Control_Left:hover i {
@@ -34,8 +42,12 @@
     float: right;
     height: 110vh;
     width: 100px;
+    /* Cool! but too dark for this design the white makes adding shadow nearly impossible without the black coming across as too bold.
+    We could try use the designs colour.
+
     background: rgb(0,0,0);
     background: linear-gradient(270deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
+    */
 }
 
 #Carousel_Control_Right:hover i {
@@ -45,23 +57,22 @@
 #Carousel_Control_Right i {
     transform: rotateZ(180deg);
 }
+
 .Control_Button i {
     margin-top: 50vh;
 }
-
 
 .Carousel_Info {
     position: relative;
     top: 101vh;
     color: white;
 }
+
 #Carousel_Info_Box {
     border-radius: 10%;
     padding: 10px 12px 10px 10px;
     background-color: rgba(0,0,0,0.45);
 }
-
-
 
 .carouselHeader {
     position: absolute;
