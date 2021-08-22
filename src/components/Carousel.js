@@ -69,7 +69,7 @@ export default function Carousel() {
             <div id="BA_Content">
                 <div id="ConentContainerRight" className="BeforeAfter cancelMarginLeft">
                     <div id="IntroContentBox">
-                        <div id="MainContent">
+                        <div id="MainContent" classname="DontRotate">
                             <h3 id="MainConentTitleRight">Model</h3>
                             <hr id="hrRight"/>
                             <br/>
