@@ -173,12 +173,8 @@
     font-size: 22px;
   }
 
-  #MainConentTitle{
-    width: 80vw;
-  }
-
-  #MainConentTitleLeft{
-    width: 80vw;
+  #MainConentTitle, #MainConentTitleLeft{
+    width: 88vw;
   }
 
   #FooterLogo{
