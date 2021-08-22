@@ -12,7 +12,7 @@ export default function Carousel() {
         CarouselIndex = (CarouselIndex+1 > MaxPosition) ? 1 : CarouselIndex+1;
         console.log("Index:" + CarouselIndex);
         UpdateCount(CarouselIndex);
-        
+
         var contentElement = document.getElementById("BA_Content");
         contentElement.classList.add("animated");
         contentElement.classList.add("fadeOutLeft");
@@ -55,12 +55,12 @@ export default function Carousel() {
 
     return (
         <div id="BA_Carousel">
-            <div id="Carousel_Controls"> 
+            <div id="Carousel_Controls">
                 <div id="Carousel_Control_Left" aria-label="Left Chevron Container" className="Control_Button" role="button" onClick={Previous} onKeyDown={Previous}>
-                    <i className="fas fa-chevron-left" aria-label="Left Chevron Button" role="button" onClick={Previous} onKeyDown={Previous}></i>                
+                    <i className="fas fa-chevron-left" aria-label="Left Chevron Button" role="button" onClick={Previous} onKeyDown={Previous}></i>
                 </div>
                 <div id="Carousel_Control_Right" className="Control_Button" aria-label="Right Chevron Container" role="button" onClick={Next} onKeyDown={Next} >
-                    <i className="fas fa-chevron-left" aria-label="Right Chevron button" role="button" onClick={Next} onKeyDown={Next}></i>                
+                    <i className="fas fa-chevron-left" aria-label="Right Chevron button" role="button" onClick={Next} onKeyDown={Next}></i>
                 </div>
                 <div className="Carousel_Info">
                     <span id="Carousel_Info_Box">{CarouselIndex}/3</span>
@@ -70,26 +70,11 @@ export default function Carousel() {
                 <div id="ConentContainerRight" className="BeforeAfter cancelMarginLeft">
                     <div id="IntroContentBox">
                         <div id="MainContent">
-                            <h3 id="MainConentTitleRight">Hair Cut After</h3>
+                            <h3 id="MainConentTitleRight">Model</h3>
                             <hr id="hrRight"/>
                             <br/>
                             <div>
                                 <div className="Before"></div>
-                                <br/>
-                            </div>
-                            <br/>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="ConentContainerLeft" className="cancelMarginLeft">
-                    <div id="IntroContentBox">
-                        <div id="MainContent">
-                            <h3 id="MainConentTitleLeft">Hair Cut Before</h3>
-                            <hr id="hrLeft"/>
-                            <br/>
-                            <div>
-                                <div className="After"></div>
                                 <br/>
                             </div>
                             <br/>

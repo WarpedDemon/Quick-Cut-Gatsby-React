@@ -3,7 +3,7 @@
 }
 
 .DontRotate{
-  transform: rotate(0deg);
+  transform: rotate(0deg) !important;
 }
 
 #BA_Carousel {
