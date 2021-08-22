@@ -12,8 +12,17 @@
 }
 
 #ImageContainer{
-  float: left;
-  margin-left: 11vw;
+  float: left !important;
+  margin-left: 11vw !important;
+  background-color: #bc006e;
+  border-radius: 15px;
+  box-shadow: -15px 15px 0 0 #e21385;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  height: auto;
+  text-align: center;
+  width: 25vw;
 }
 
 #Carousel_Controls {
