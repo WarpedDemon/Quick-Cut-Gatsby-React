@@ -1,6 +1,6 @@
 .Gallery{
   margin-top: 5vh;
-  margin-left: 37% !important;
+  margin-left: 37%;
 }
 
 .DontRotate{
@@ -96,7 +96,7 @@
 }
 
 #BA_Content > div{
-  margin-left: 36.6vw !important;
+  margin-left: 36.6vw;
   float:left !important;
   margin-top: 25vh !important;
 }

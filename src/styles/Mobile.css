@@ -11,8 +11,8 @@
   }
 
   hr {
-      margin-left: 6vw !important;
-      width: 80% !important;
+      width: 100% !important;
+      margin-left: 0px!important;
   }
 
   #Nav{
@@ -103,8 +103,8 @@
   }
 
   .img6{
-    min-height: 185vh!important;
-    height: 185vh!important;
+    min-height: 45vh!important;
+    height: 110vh!important;
   }
 
   .img6 > div > div, .img1 > div > div{
@@ -217,7 +217,7 @@
   #ConentContainerRight {
     float: left;
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 1vw;
     margin-right: 0;
     padding-left: 0px;
   }
@@ -229,8 +229,7 @@
   #ConentContainerLeft {
     float: left;
     margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 0;
+    margin-left: 1vw;
     padding-left: 0px;
   }
 
@@ -264,7 +263,7 @@
 
   /* CAROUSEL Styling */
   .carouselHeader {
-    margin-top: 20vh;
+    margin-top: 20vh !important;
     margin-left: 2vw !important;
   }
 
@@ -276,13 +275,27 @@
     margin-top: 100px !important;
   }
 
+  #BA_Content > div {
+      margin-left: -3vw !important;
+      float: left !important;
+      margin-top: 25vh !important;
+  }
+
   #Carousel_Control_Left,
   #Carousel_Control_Right {
     height: 185vh !important;
+    z-index: 90000;
   }
 
   .Carousel_Info {
     top: 174vh !important;
+    margin-top: -84vh !important;
+    z-index: 10;
+  }
+
+  .Gallery {
+    margin-top: 5vh;
+    margin-left: 0% !important;
   }
 
   .BeforeAfter {
