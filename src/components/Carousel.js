@@ -67,7 +67,7 @@ export default function Carousel() {
                 </div>
             </div>
             <div id="BA_Content">
-                <div id="ConentContainerRight" className="BeforeAfter ImageContainer DontRotate">
+                <div className="BeforeAfter ImageContainer DontRotate">
                     <div id="IntroContentBox">
                         <div id="MainContent">
                             <h3 id="MainConentTitleRight">Model</h3>
