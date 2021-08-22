@@ -11,6 +11,11 @@
     height: 110vh;
 }
 
+#ImageContainer{
+  float: left;
+  margin-left: 11vw;
+}
+
 #Carousel_Controls {
     position: absolute;
     width: 100%;
