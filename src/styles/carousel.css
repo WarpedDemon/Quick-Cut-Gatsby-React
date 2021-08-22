@@ -1,5 +1,6 @@
 .Gallery{
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-left: 37% !important;
 }
 
 .DontRotate{
@@ -21,7 +22,7 @@
     width: 100%;
     text-align: center;
     font-size: 32px;
-    color: white;
+    color: black;
     cursor: pointer;
     margin: 0 !important;
     z-index: 10000;
@@ -72,6 +73,7 @@
 }
 
 .Carousel_Info {
+    margin-top: 2vh;
     position: relative;
     top: 101vh;
     color: white;
@@ -94,6 +96,7 @@
 }
 
 #BA_Content > div{
-  margin-left: 11vw !important;
+  margin-left: 36.6vw !important;
   float:left !important;
+  margin-top: 25vh !important;
 }
