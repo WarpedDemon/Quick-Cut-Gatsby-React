@@ -256,6 +256,8 @@ h3{
 
 .img5{
   /* The image used */
+  min-height: 150vh;
+  height: 150vh;
   background-color: white;
 }
 
