@@ -92,3 +92,8 @@
     height: auto;
     margin-top: -20px;
 }
+
+#BA_Content > div{
+  margin-left: 11vw !important;
+  float:left !important;
+}
