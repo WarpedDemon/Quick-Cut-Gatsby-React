@@ -21,7 +21,6 @@ export default function SingleParrallaxPage() {
     }
 
     return (
-      <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205628146-1"></script>
       <script>
       window.dataLayer = window.dataLayer || [];
