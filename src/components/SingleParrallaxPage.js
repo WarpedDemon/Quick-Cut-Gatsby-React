@@ -1,10 +1,8 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import Carousel from './Carousel'
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 export default function SingleParrallaxPage() {
-    <OutboundLink></OutboundLink>
 
     function OpenNavMenu(e) {
       var hamburger = document.getElementById("MobileNavButton")
