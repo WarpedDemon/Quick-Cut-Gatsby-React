@@ -75,8 +75,8 @@ export default function Carousel() {
     return (
         <div id="BA_Carousel">
             <div id="Carousel_Controls">
-                <div id="Carousel_Control_Left" aria-label="Left Chevron Container" className="Control_Button" role="button" onClick={Previous} onKeyDown={Previous}>
-                    <i className="fas fa-chevron-left" aria-label="Left Chevron Button" role="button" onClick={Previous} onKeyDown={Previous}></i>
+                <div id="Carousel_Control_Left" aria-label="Left Chevron Container" className="Control_Button" role="button" onClick={Previous} onKeyDown={Previous} >
+                    <i className="fas fa-chevron-left" aria-label="Left Chevron Button"></i>
                 </div>
                 <div id="Carousel_Control_Right" className="Control_Button" aria-label="Right Chevron Container" role="button" onClick={Next} onKeyDown={Next} >
                     <i className="fas fa-chevron-left"></i>
