@@ -29,39 +29,25 @@
 }
 
 #Carousel_Controls div i {
-    transition: all 0.3s ease;
+    width: 1em;
+    height: 1em;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(188,0,110);
+    background: radial-gradient(circle, rgba(188,0,110,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 #Carousel_Control_Left {
     float: left;
     height: 110vh;
-    width: 100px;
-    /* Cool! but too dark for this design the white makes adding shadow nearly impossible without the black coming across as too bold.
-    We could try use the designs colour.
-
-    background: rgb(0,0,0);
-    background: linear-gradient(270deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
-    */
-}
-
-#Carousel_Control_Left:hover i {
-    transform: scale(1.5);
+    width: 25vw;
 }
 
 #Carousel_Control_Right {
     float: right;
     height: 110vh;
-    width: 100px;
-    /* Cool! but too dark for this design the white makes adding shadow nearly impossible without the black coming across as too bold.
-    We could try use the designs colour.
-
-    background: rgb(0,0,0);
-    background: linear-gradient(270deg, rgba(50,50,50,1) 0%, rgba(0,0,0,0) 100%);
-    */
-}
-
-#Carousel_Control_Right:hover i {
-    transform: scale(1.5) rotateZ(180deg);
+    width: 25vw;
 }
 
 #Carousel_Control_Right i {
@@ -93,10 +79,4 @@
 #BA_Content {
     height: auto;
     margin-top: -20px;
-}
-
-#BA_Content > div{
-  margin-left: 36.6vw;
-  float:left !important;
-  margin-top: 25vh !important;
 }

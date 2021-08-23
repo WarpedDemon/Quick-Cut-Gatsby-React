@@ -153,6 +153,14 @@ a:hover{
   margin-right: 10vw;
   margin-top: 30vh;
 }
+#ConentContainerMiddle {
+  float: none;
+  margin: auto;
+  padding-top: 25vh;
+}
+.CenterMargin {
+  margin: auto !important;
+}
 
 ul{
   list-style: none;
@@ -279,6 +287,13 @@ h3{
   background-size: cover;
   height: 55vh;
   background-image: url("/img/Before.png");
+}
+
+#CarouselContentImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
 }
 
 .After{

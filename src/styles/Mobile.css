@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1750px) {
+@media only screen and (max-width: 764px) {
   /* #ad005c */
 
   /*
@@ -260,18 +260,13 @@
   }
 
   .Control_Button i {
-    margin-top: 90vh !important;
+    margin-top: 65vh !important;
   }
 
   .BA_Content {
     margin-top: 100px !important;
   }
 
-  #BA_Content > div {
-      margin-left: -3vw !important;
-      float: left !important;
-      margin-top: 25vh !important;
-  }
 
   #Carousel_Control_Left,
   #Carousel_Control_Right {
@@ -290,7 +285,4 @@
     margin-left: 0% !important;
   }
 
-  .BeforeAfter {
-    margin-top: 200px !important;
-  }
 }
