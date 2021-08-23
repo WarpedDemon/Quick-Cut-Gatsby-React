@@ -1,7 +1,7 @@
 var plugins = [{
-      name: 'gatsby-plugin-sitemap',
-      plugin: require('D:/EndProject/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
+      name: 'gatsby-plugin-google-analytics',
+      plugin: require('D:/EndProject/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-205628146-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"pageTransitionDelay":0,"optimizeId":"UA-205628146-1","experimentId":"UA-205628146-1","variationId":"UA-205628146-1","defer":false,"sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"https://www.quickcutwa.com.au/","enableWebVitalsTracking":true},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

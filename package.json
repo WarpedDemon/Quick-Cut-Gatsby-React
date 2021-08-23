@@ -17,6 +17,7 @@
     "babel-runtime": "^6.26.0",
     "cli": "^1.0.1",
     "gatsby": "^3.10.2",
+    "gatsby-plugin-google-analytics": "^3.12.0",
     "gatsby-plugin-robots-txt": "^1.6.8",
     "gatsby-plugin-sitemap": "^4.7.0",
     "react": "^17.0.2",
