@@ -8,12 +8,14 @@ export default function Carousel() {
     */
 
     var Images = [
-        '/img/Before.png',
-        '/img/After.png',
-        '/img/Before.png'
+        '/img/QuickCuts_FirstShoot-Whitfords_FullRes_5.jpg',
+        '/img/QuickCuts_FirstShoot-Whitfords_FullRes_20.jpg',
+        '/img/QuickCuts_FirstShoot-Whitfords_FullRes_32.jpg',
+        '/img/QuickCuts_FirstShoot-Whitfords_FullRes_39.jpg',
+        '/img/QuickCuts_FirstShoot-Whitfords_FullRes_40.jpg'
     ]
 
-    
+
     var CarouselIndex = 1; //Carousel First position
     var MaxPosition = Images.length; //Carousel Final position
 
