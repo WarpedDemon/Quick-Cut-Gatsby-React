@@ -232,7 +232,7 @@
   #FooterText {
     font-size: 25px;
     margin-top: 20vh;
-    text-align: center!important;
+    text-align: center;
   }
 
   #FAQTitle {
@@ -241,7 +241,7 @@
   }
 
   #FooterFaq {
-    text-align: left;
+    text-align: center;
     font-size: 25px;
   }
 
