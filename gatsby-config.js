@@ -21,12 +21,7 @@ module.exports = {
         sitemap: 'https://quickcut.netlify.app/sitemap/sitemap-0.xml',
         policy: [{ userAgent: '*', allow: '/'}]
       }
-    }
-  ],
-}
-
-module.exports = {
-  plugins: [
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
