@@ -54,7 +54,7 @@ export default function SingleParrallaxPage() {
               <span className="hamburger-inner"></span>
             </span>
           </button>
-          <a href="tel:040324347" id="Phone">✆</a>
+          <a href="tel:0403243478" id="Phone">✆</a>
         </div>
 
         <div className="Spacer"></div>
