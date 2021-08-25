@@ -254,8 +254,8 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallax img6" id="img6">
-        <div className="carouselHeader Gallery">
-          <div id="IntroContentBox" className="DontRotate CenterMargin">
+        <div className="carouselHeader Gallery CenterMargin">
+          <div id="IntroContentBox" className="DontRotate">
             <div id="MainContent">
               <h3 id="MainConentTitle">Gallery</h3>
               <hr/>
