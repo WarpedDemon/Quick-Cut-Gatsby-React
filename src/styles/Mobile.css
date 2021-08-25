@@ -150,11 +150,11 @@
   }
 
   iframe{
-    width: 100vw;
+    width: 100vw !important;
   }
 
   .iframeContainer{
-    padding: 0px;
+    padding: 0px !important;
   }
 
   #IntroContentBox{
