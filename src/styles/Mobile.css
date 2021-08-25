@@ -11,8 +11,8 @@
   }
 
   hr {
-      width: 100% !important;
-      margin-left: 0px!important;
+    width: 100% !important;
+    margin-left: 0px!important;
   }
 
   #Nav{
@@ -150,7 +150,11 @@
   }
 
   iframe{
-    width: 90vw;
+    width: 100vw;
+  }
+
+  .iframeContainer{
+    padding: 0px;
   }
 
   #IntroContentBox{
