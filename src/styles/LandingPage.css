@@ -145,13 +145,13 @@ a:hover{
 #ConentContainerLeft{
   float: left;
   margin-left: 10vw;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 #ConentContainerRight{
   float: right;
   margin-right: 10vw;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 #ConentContainerMiddle {
