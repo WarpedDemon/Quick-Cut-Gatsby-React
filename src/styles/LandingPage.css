@@ -153,11 +153,13 @@ a:hover{
   margin-right: 10vw;
   margin-top: 30vh;
 }
+
 #ConentContainerMiddle {
   float: none;
   margin: auto;
   padding-top: 25vh;
 }
+
 .CenterMargin {
   margin: auto !important;
 }
@@ -311,7 +313,7 @@ h3{
 #FooterRibben{
   margin-left: -1vw;
   width: 100vw;
-  height:1vh;
+  height: 1vh;
   background-color: #bc006e;
 }
 

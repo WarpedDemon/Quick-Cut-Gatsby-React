@@ -157,19 +157,19 @@ export default function SingleParrallaxPage() {
               <br/>
               <div>
                 <div>
-                  <u>Phone:</u>
+                  Phone:
                   <br/>
                   <br/>
                   0403 243 478
                   <br/>
                   <br/>
-                  <u>Address:</u>
+                  Address:
                   <br/>
                   <br/>
                   Shop 9,470 Westfield Whitfords, Whitfords Avenue Hillarys 6025
                   <br/>
                   <br/>
-                  <u>Manager:</u>
+                  Manager:
                   <br/>
                   <br/>
                   Email:jngo@jgup.com.au
@@ -188,19 +188,19 @@ export default function SingleParrallaxPage() {
               <br/>
               <div>
                 <div>
-                  <u>Phone:</u>
+                  Phone:
                   <br/>
                   <br/>
                   0403 243 478
                   <br/>
                   <br/>
-                  <u>Address:</u>
+                  Address:
                   <br/>
                   <br/>
                   Shop 40, Dianella Plaza, 366 Grand Promenade Dianella 6059
                   <br/>
                   <br/>
-                  <u>Manager:</u>
+                  Manager:
                   <br/>
                   <br/>
                   Email: jngo@jgup.com.au
@@ -274,7 +274,7 @@ export default function SingleParrallaxPage() {
 
           <div id="FooterContent">
             <div id="FooterText">
-              <h3 className="FAQTitle"><u>Frequently Asked Questions:</u></h3>
+              <h3 className="FAQTitle">Frequently Asked Questions:</h3>
               <br/>
               <br/>
               <ul id="FooterFaq">
