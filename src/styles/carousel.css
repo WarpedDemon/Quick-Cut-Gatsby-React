@@ -29,6 +29,7 @@
 }
 
 #Carousel_Controls div i {
+    margin-top: 85vh !important;
     width: 1em;
     height: 1em;
     padding: 20px;
