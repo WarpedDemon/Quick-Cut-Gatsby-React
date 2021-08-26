@@ -29,8 +29,9 @@
   }
 
   #Nav a {
+    width: 33vw;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 10px;
     padding-right: 10px;
   }
