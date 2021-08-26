@@ -168,12 +168,6 @@ ul{
   list-style: none;
 }
 
-@media only screen and (min-width : 1750px) {
-  #IntroContentBox{
-    transform: rotate(5deg);
-  }
-}
-
 #IntroContentBox{
   width: 33vw;
   height: auto;
