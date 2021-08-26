@@ -26,8 +26,8 @@ iframe {
 /* Other Divs */
 #ToTopButton {
   position: fixed;
-  bottom: 45px;
-  right: 45px;
+  bottom: 5px;
+  right: 5px;
   z-index: 1000;
   width: 60px;
   height: 60px;
@@ -36,7 +36,7 @@ iframe {
   color: white;
   text-align: center;
   cursor: pointer;
-  border: 2px solid #e21385;
+  border: 5px solid #e21385;
 }
 
 #ToTopButton:hover i {
