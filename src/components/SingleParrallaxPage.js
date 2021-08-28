@@ -258,7 +258,6 @@ export default function SingleParrallaxPage() {
           <div id="IntroContentBox" className="DontRotate">
             <div id="MainContent">
               <h3 id="MainConentTitle">Gallery</h3>
-              <hr/>
               <br/>
             </div>
           </div>

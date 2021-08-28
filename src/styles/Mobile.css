@@ -77,39 +77,9 @@
   }
 
   #MainContent > p{
-    width: 80vw;
-    font-size: 23px;
+    width: 85vw;
+    font-size: 22px;
     font-weight: 400;
-  }
-
-  .img1{
-    min-height: 125vh!important;
-    height: 125vh!important;
-  }
-
-  .img2{
-    min-height: 170vh!important;
-    height: 170vh!important;
-  }
-
-  .img3{
-    min-height: 170vh!important;
-    height: 170vh!important;
-  }
-
-  .img4{
-    min-height: 205vh!important;
-    height: 205vh!important;
-  }
-
-  .img6{
-    min-height: 45vh!important;
-    height: 110vh!important;
-  }
-
-  .img6 > div > div, .img1 > div > div{
-    margin-top: -20vh;
-    margin-left: 3vw;
   }
 
   #MobileNavButton{
@@ -168,7 +138,7 @@
     height: auto;
     background-color: #bc006e;
     color: white;
-    margin-left: 5vw;
+    margin-left: 5.5vw;
   }
 
   h1{
@@ -269,8 +239,8 @@
 
   /* CAROUSEL Styling */
   .carouselHeader {
-    margin-top: 20vh !important;
-    margin-left: 2vw !important;
+    margin-top: 20vh;
+    margin-left: 2vw;
   }
 
   .Control_Button i {
@@ -295,8 +265,43 @@
   }
 
   .Gallery {
-    margin-top: 5vh;
+    margin-top: 35vh !important;
     margin-left: 1vw !important;
+  }
+
+  .img1{
+    min-height: 85vh!important;
+    height: 85vh!important;
+  }
+
+  .img2{
+    min-height: 130vh!important;
+    height: 130vh!important;
+  }
+
+  .img3{
+    min-height: 120vh!important;
+    height: 120vh!important;
+  }
+
+  .img4{
+    min-height: 150vh!important;
+    height: 150vh!important;
+  }
+
+  .img5{
+    min-height: 175vh!important;
+    height: 175vh!important;
+  }
+
+  .img6{
+    min-height: 110vh!important;
+    height: 110vh!important;
+  }
+
+  .img6 > div > div, .img1 > div > div{
+    margin-top: -20vh;
+    margin-left: 3vw;
   }
 
 }

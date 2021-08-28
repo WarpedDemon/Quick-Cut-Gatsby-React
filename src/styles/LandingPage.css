@@ -1,4 +1,4 @@
-* { padding: 0; margin: 0;  font-family: "Abril Fatface", sans-serif;}
+* { padding: 0; margin: 0;  font-family: "Playfair Display", sans-serif;}
 html { scroll-behavior: smooth;}
 body { background-color: 	#FFFAFA; }
 
@@ -117,17 +117,17 @@ a:hover{
 }
 
 #MainContent{
-  padding:15px;
+  padding:10px;
 }
 
 #MainContent > p{
-  width: 31vw;
   font-size: 22px;
   font-weight: 300;
 }
 
 #ConentContainer{
   margin-left: 33%;
+
 }
 
 .Spacer{
@@ -145,13 +145,13 @@ a:hover{
 #ConentContainerLeft{
   float: left;
   margin-left: 10vw;
-  margin-top: 20vh;
+  margin-top: 33vh;
 }
 
 #ConentContainerRight{
   float: right;
   margin-right: 10vw;
-  margin-top: 20vh;
+  margin-top: 33vh;
 }
 
 #ConentContainerMiddle {
@@ -174,7 +174,7 @@ ul{
   background-color: #bc006e;
   color: white;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   box-shadow: -10px 10px 0px 0px #e21385;
   border-radius: 15px;
@@ -216,7 +216,6 @@ h3{
   transform-style: preserve-3d;
   /* Set a specific height */
   /*min-height: 1000px;*/
-  min-height: 110vh;
 
   /* Create the PeelParrallax scrolling effect */
   background-attachment: fixed;
@@ -239,23 +238,25 @@ h3{
 .img1{
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_9.jpg");
+  min-height: 120vh;
 }
 
 .img2{
-
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_36.jpg");
-  min-height: 120vh!important;
+  min-height: 120vh;
 }
 
 .img3{
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_15.jpg");
+  min-height: 120vh;
 }
 
 .img4{
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_46.jpg");
+  min-height: 130vh;
 }
 
 .img5{
@@ -268,6 +269,7 @@ h3{
 .img6{
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_45.jpg");
+  min-height: 130vh;
 }
 
 .PriceGuide{
