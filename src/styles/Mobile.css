@@ -138,7 +138,7 @@
     height: auto;
     background-color: #bc006e;
     color: white;
-    margin-left: 5.5vw;
+    margin-left: 5vw;
   }
 
   h1{
@@ -266,7 +266,7 @@
 
   .Gallery {
     margin-top: 35vh !important;
-    margin-left: 1vw !important;
+    margin-left: 1.5vw !important;
   }
 
   .img1{
@@ -280,13 +280,13 @@
   }
 
   .img3{
-    min-height: 120vh!important;
-    height: 120vh!important;
+    min-height: 130vh!important;
+    height: 130vh!important;
   }
 
   .img4{
-    min-height: 150vh!important;
-    height: 150vh!important;
+    min-height: 165vh!important;
+    height: 165vh!important;
   }
 
   .img5{
