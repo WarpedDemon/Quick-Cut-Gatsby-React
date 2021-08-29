@@ -145,7 +145,6 @@ export default function SingleParrallaxPage() {
             </div>
           </div>
         </div>
-        <div className="Spacer"></div>
       </div>
 
       <div className="PeelParrallax img3" id="img3">
@@ -210,9 +209,6 @@ export default function SingleParrallaxPage() {
             </div>
           </div>
         </div>
-
-        <div className="Spacer"></div>
-
       </div>
 
       <div className="PeelParrallax img4" id="img4">
@@ -248,9 +244,6 @@ export default function SingleParrallaxPage() {
             </div>
           </div>
         </div>
-
-        <div className="Spacer"></div>
-
       </div>
 
       <div className="PeelParrallax img6" id="img6">
@@ -278,11 +271,11 @@ export default function SingleParrallaxPage() {
               <br/>
               <ul id="FooterFaq">
                 <li>Does Quick Cuts currently offer any products?</li>
-                <li>    -    No Quick Cuts does not sell any products.</li>
+                <li className="answer">    -    No Quick Cuts does not sell any products.</li>
                 <li>Does Quick Cuts currently offer any bookings?</li>
-                <li>    -    No Quick Cuts does not offer any bookings.</li>
+                <li className="answer">    -    No Quick Cuts does not offer any bookings.</li>
                 <li>Is Quick Cuts a walk in only business?</li>
-                <li>    -    Yes Quick Cuts is a walk in business.</li>
+                <li className="answer">    -    Yes Quick Cuts is a walk in business.</li>
               </ul>
               <br/>
               <br/>

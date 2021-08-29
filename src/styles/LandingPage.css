@@ -324,6 +324,11 @@ h3{
   font-size: 35px;
 }
 
+.answer {
+  color: #e21385;
+  font-size: 22px;
+}
+
 #FooterFaq li {
   margin-bottom: 50px;
 }
@@ -349,3 +354,4 @@ h3{
 .TimeContainer li {
   margin-bottom: 25px;
 }
+

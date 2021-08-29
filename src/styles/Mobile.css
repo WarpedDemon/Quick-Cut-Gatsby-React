@@ -68,7 +68,7 @@
   .PeelParrallax{
       background-attachment: scroll;
       width:100vw;
-      height: 200vh;
+  
   }
 
   #ConentContainer{
@@ -191,11 +191,12 @@
   }
 
   #ConentContainerRight {
-    float: left;
-    margin-top: 5vh;
+    float: none;
+    margin-top: 0vh;
     margin-left: 1vw;
     margin-right: 0;
     padding-left: 0px;
+    padding-top: 50px;
   }
 
   .cancelMarginLeft {
@@ -203,11 +204,14 @@
   }
 
   #ConentContainerLeft {
-    float: left;
+    float: none;
     margin-top: 5vh;
     margin-left: 1vw;
     padding-left: 0px;
+    padding-bottom: 50px;
   }
+
+  
 
   #FooterRibben{
     width: 90vw;
@@ -267,36 +271,6 @@
   .Gallery {
     margin-top: 35vh !important;
     margin-left: 1.5vw !important;
-  }
-
-  .img1{
-    min-height: 85vh!important;
-    height: 85vh!important;
-  }
-
-  .img2{
-    min-height: 130vh!important;
-    height: 130vh!important;
-  }
-
-  .img3{
-    min-height: 130vh!important;
-    height: 130vh!important;
-  }
-
-  .img4{
-    min-height: 165vh!important;
-    height: 165vh!important;
-  }
-
-  .img5{
-    min-height: 175vh!important;
-    height: 175vh!important;
-  }
-
-  .img6{
-    min-height: 110vh!important;
-    height: 110vh!important;
   }
 
   .img6 > div > div, .img1 > div > div{
