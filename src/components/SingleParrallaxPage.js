@@ -101,7 +101,7 @@ export default function SingleParrallaxPage() {
                   Saturday: 9am to 5pm
                   </li>
                   <li>
-                  Sunday: 11am to 5pm
+                  Sunday: Closed
                   </li>
                 </ul>
                 <br/>
@@ -119,19 +119,19 @@ export default function SingleParrallaxPage() {
               <div>
                 <ul className="TimeContainer">
                   <li>
-                  Monday: 9am to 5pm
+                  Monday: 9am to 5:30pm
                   </li>
                   <li>
-                  Tuesday: 9am to 5pm
+                  Tuesday: 9am to 5:30pm
                   </li>
                   <li>
-                  Wednesday: 9am to 5pm
+                  Wednesday: 9am to 5:30pm
                   </li>
                   <li>
                   Thursday: 9am to 5:30pm
                   </li>
                   <li>
-                  Friday: 9am to 5pm
+                  Friday: 9am to 5:30pm
                   </li>
                   <li>
                   Saturday: 9am to 5pm
