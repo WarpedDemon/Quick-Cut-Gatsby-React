@@ -1,10 +1,14 @@
 var plugins = [{
+      name: 'gatsby-plugin-google-tagmanager',
+      plugin: require('C:/Users/AuraG/Desktop/Websites/Nelgara-Gatsby/nelgaraptyltd/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
+      options: {"plugins":[],"id":"GTM-T82H3N4","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"enableWebVitalsTracking":true,"routeChangeEventName":"gatsby-route-change"},
+    },{
       name: 'gatsby-plugin-sitemap',
-      plugin: require('D:/EndProject/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/Users/AuraG/Desktop/Websites/Nelgara-Gatsby/nelgaraptyltd/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     },{
       name: 'gatsby-plugin-google-gtag',
-      plugin: require('D:/EndProject/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
+      plugin: require('C:/Users/AuraG/Desktop/Websites/Nelgara-Gatsby/nelgaraptyltd/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingIds":["UA-205628146-1"],"pluginConfig":{"head":true,"respectDNT":false,"exclude":[]}},
     }]
 /* global plugins */
