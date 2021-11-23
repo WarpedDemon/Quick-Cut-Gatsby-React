@@ -77,17 +77,17 @@ export default function Carousel() {
     return (
         <div id="BA_Carousel">
             <div id="Carousel_Controls">
-                <div id="Carousel_Control_Left" aria-label="Left Chevron Container" className="Control_Button" role="button" onClick={Previous} onKeyDown={Previous} >
+                <div id="Carousel_Control_Left" aria-label="Left Chevron Container" className="Control_Button" role="button" tabIndex="-20" onClick={Previous} onKeyDown={Previous} >
                     <i className="fas fa-chevron-left" aria-label="Left Chevron Button"></i>
                 </div>
-                <div id="Carousel_Control_Right" className="Control_Button" aria-label="Right Chevron Container" role="button" onClick={Next} onKeyDown={Next} >
+                <div id="Carousel_Control_Right" className="Control_Button" aria-label="Right Chevron Container" role="button" tabIndex="-21"  onClick={Next} onKeyDown={Next} >
                     <i className="fas fa-chevron-left"></i>
                 </div>
                 <div className="Carousel_Info">
-                    <span id="Carousel_Info_Box">{CarouselIndex}/3</span>
+                    <span id="Carousel_Info_Box">{CarouselIndex}/5</span>
                 </div>
             </div>
-            <div id="BA_Content">
+            <div id="BA_Content"  style={{paddingTop: "80px"}}>
                 <div id="ConentContainerMiddle" className="BeforeAfter DontRotate">
                     <div id="IntroContentBox" className="DontRotate CenterMargin">
                         <div id="MainContent">
