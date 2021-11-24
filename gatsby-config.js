@@ -11,6 +11,8 @@ module.exports = {
     siteUrl: `https://quickcut.netlify.app/`,
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -31,5 +33,6 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/'}]
       }
     },
+    
   ],
 }

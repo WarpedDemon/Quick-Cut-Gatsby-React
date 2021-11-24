@@ -2,6 +2,7 @@
 
 exports.__esModule = true;
 exports.useStackFrame = useStackFrame;
+exports.useFileCodeFrame = useFileCodeFrame;
 
 var React = _interopRequireWildcard(require("react"));
 
@@ -44,6 +45,36 @@ function useStackFrame({
         });
       } catch (err) {
         setResponse({ ...initialResponse,
+          decoded: (0, _utils.prettifyStack)(err.message)
+        });
+      }
+    }
+
+    fetchData();
+  }, []);
+  return response;
+}
+
+function useFileCodeFrame({
+  filePath,
+  lineNumber,
+  columnNumber
+}) {
+  const url = `/__file-code-frame?filePath=` + window.encodeURIComponent(filePath) + `&lineNumber=` + window.encodeURIComponent(lineNumber) + `&columnNumber=` + window.encodeURIComponent(columnNumber);
+  const [response, setResponse] = React.useState({
+    decoded: null
+  });
+  React.useEffect(() => {
+    async function fetchData() {
+      try {
+        const res = await fetch(url);
+        const json = await res.json();
+        const decoded = (0, _utils.prettifyStack)(json.codeFrame);
+        setResponse({
+          decoded
+        });
+      } catch (err) {
+        setResponse({
           decoded: (0, _utils.prettifyStack)(err.message)
         });
       }

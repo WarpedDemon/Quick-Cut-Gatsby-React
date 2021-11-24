@@ -1,11 +1,15 @@
 var plugins = [{
+      name: 'gatsby-plugin-image',
+      plugin: require('C:/Users/AuraG/Desktop/Websites/Nelgara-Gatsby/nelgaraptyltd/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       name: 'gatsby-plugin-google-tagmanager',
       plugin: require('C:/Users/AuraG/Desktop/Websites/Nelgara-Gatsby/nelgaraptyltd/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
-      options: {"plugins":[],"id":"GTM-T82H3N4","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"enableWebVitalsTracking":true,"routeChangeEventName":"gatsby-route-change"},
+      options: {"plugins":[],"id":"GTM-T82H3N4","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"enableWebVitalsTracking":true,"routeChangeEventName":"gatsby-route-change","selfHostedOrigin":"https://www.googletagmanager.com"},
     },{
       name: 'gatsby-plugin-sitemap',
       plugin: require('C:/Users/AuraG/Desktop/Websites/Nelgara-Gatsby/nelgaraptyltd/Quick-Cut-Gatsby-React/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
+      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

@@ -49,10 +49,21 @@ function maybeRedirect(pathname) {
   } else {
     return false;
   }
-}
+} // Catch unhandled chunk loading errors and force a restart of the app.
+
+
+let nextRoute = ``;
+window.addEventListener(`unhandledrejection`, event => {
+  if (/loading chunk \d* failed./i.test(event.reason)) {
+    if (nextRoute) {
+      window.location.pathname = nextRoute;
+    }
+  }
+});
 
 const onPreRouteUpdate = (location, prevLocation) => {
   if (!maybeRedirect(location.pathname)) {
+    nextRoute = location.pathname;
     (0, _apiRunnerBrowser.apiRunner)(`onPreRouteUpdate`, {
       location,
       prevLocation
@@ -117,7 +128,7 @@ const navigate = (to, options = {}) => {
     });
   }, 1000);
 
-  _loader.default.loadPage(pathname).then(pageResources => {
+  _loader.default.loadPage(pathname + search).then(pageResources => {
     // If no page resources, then refresh the page
     // Do this, rather than simply `window.location.reload()`, so that
     // pressing the back/forward buttons work - otherwise when pressing
@@ -142,7 +153,7 @@ const navigate = (to, options = {}) => {
           });
         }
 
-        window.location = pathname;
+        window.location = pathname + search + hash;
       }
     }
 
@@ -208,10 +219,7 @@ function init() {
     replace: true
   });
 
-  window.___navigate = (to, options) => navigate(to, options); // Check for initial page-load redirect
-
-
-  maybeRedirect(window.location.pathname);
+  window.___navigate = (to, options) => navigate(to, options);
 }
 
 class RouteAnnouncer extends _react.default.Component {

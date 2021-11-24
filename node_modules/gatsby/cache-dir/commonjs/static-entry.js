@@ -4,6 +4,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 
 exports.__esModule = true;
 exports.default = staticPage;
+exports.getPageChunk = getPageChunk;
 exports.sanitizeComponents = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
@@ -24,17 +25,17 @@ const {
   isRedirect
 } = require(`@gatsbyjs/reach-router`);
 
-const {
-  merge,
-  flattenDeep,
-  replace
-} = require(`lodash`);
+const merge = require(`deepmerge`);
 
 const {
   StaticQueryContext
 } = require(`gatsby`);
 
 const fs = require(`fs`);
+
+const {
+  WritableAsPromise
+} = require(`./server-utils/writable-as-promise`);
 
 const {
   RouteAnnouncerProps
@@ -45,7 +46,7 @@ const {
   apiRunnerAsync
 } = require(`./api-runner-ssr`);
 
-const syncRequires = require(`$virtual/sync-requires`);
+const asyncRequires = require(`$virtual/async-requires`);
 
 const {
   version: gatsbyVersion
@@ -104,13 +105,13 @@ const getAppDataUrl = () => `${__PATH_PREFIX__}/${join(`page-data`, `app-data.js
 const createElement = React.createElement;
 
 const sanitizeComponents = components => {
-  const componentsArray = ensureArray(components);
+  const componentsArray = [].concat(components).flat(Infinity).filter(Boolean);
   return componentsArray.map(component => {
     // Ensure manifest is always loaded from content server
     // And not asset server when an assetPrefix is used
     if (__ASSET_PREFIX__ && component.props.rel === `manifest`) {
       return React.cloneElement(component, {
-        href: replace(component.props.href, __ASSET_PREFIX__, ``)
+        href: component.props.href.replace(__ASSET_PREFIX__, ``)
       });
     }
 
@@ -120,15 +121,25 @@ const sanitizeComponents = components => {
 
 exports.sanitizeComponents = sanitizeComponents;
 
-const ensureArray = components => {
-  if (Array.isArray(components)) {
-    // remove falsy items and flatten
-    return flattenDeep(components.filter(val => Array.isArray(val) ? val.length > 0 : val));
-  } else {
-    // we also accept single components, so we need to handle this case as well
-    return components ? [components] : [];
-  }
-};
+function deepMerge(a, b) {
+  const combineMerge = (target, source, options) => {
+    const destination = target.slice();
+    source.forEach((item, index) => {
+      if (typeof destination[index] === `undefined`) {
+        destination[index] = options.cloneUnlessOtherwiseSpecified(item, options);
+      } else if (options.isMergeableObject(item)) {
+        destination[index] = merge(target[index], item, options);
+      } else if (target.indexOf(item) === -1) {
+        destination.push(item);
+      }
+    });
+    return destination;
+  };
+
+  return merge(a, b, {
+    arrayMerge: combineMerge
+  });
+}
 
 async function staticPage({
   pagePath,
@@ -137,7 +148,8 @@ async function staticPage({
   styles,
   scripts,
   reversedStyles,
-  reversedScripts
+  reversedScripts,
+  inlinePageData = false
 }) {
   // for this to work we need this function to be sync or at least ensure there is single execution of it at a time
   global.unsafeBuiltinUsage = [];
@@ -188,11 +200,13 @@ async function staticPage({
     };
 
     const setHtmlAttributes = attributes => {
-      htmlAttributes = merge(htmlAttributes, attributes);
+      // TODO - we should remove deep merges
+      htmlAttributes = deepMerge(htmlAttributes, attributes);
     };
 
     const setBodyAttributes = attributes => {
-      bodyAttributes = merge(bodyAttributes, attributes);
+      // TODO - we should remove deep merges
+      bodyAttributes = deepMerge(bodyAttributes, attributes);
     };
 
     const setPreBodyComponents = components => {
@@ -204,7 +218,8 @@ async function staticPage({
     };
 
     const setBodyProps = props => {
-      bodyProps = merge({}, bodyProps, props);
+      // TODO - we should remove deep merges
+      bodyProps = deepMerge({}, bodyProps, props);
     };
 
     const getHeadComponents = () => headComponents;
@@ -230,6 +245,7 @@ async function staticPage({
       componentChunkName,
       staticQueryHashes = []
     } = pageData;
+    const pageComponent = await asyncRequires.components[componentChunkName]();
     const staticQueryUrls = staticQueryHashes.map(getStaticQueryUrl);
 
     class RouteHandler extends React.Component {
@@ -242,7 +258,7 @@ async function staticPage({
             ...(((_pageData$result = pageData.result) === null || _pageData$result === void 0 ? void 0 : (_pageData$result$page = _pageData$result.pageContext) === null || _pageData$result$page === void 0 ? void 0 : _pageData$result$page.__params) || {})
           }
         };
-        const pageElement = createElement(syncRequires.components[componentChunkName], props);
+        const pageElement = createElement(pageComponent.default, props);
         const wrappedPage = apiRunner(`wrapPageElement`, {
           element: pageElement,
           props
@@ -298,10 +314,6 @@ async function staticPage({
       try {
         // react 18 enabled
         if (pipeToNodeWritable) {
-          const {
-            WritableAsPromise
-          } = require(`./server-utils/writable-as-promise`);
-
           const writableStream = new WritableAsPromise();
           const {
             startWriting
@@ -347,7 +359,7 @@ async function staticPage({
       }));
     });
 
-    if (pageData) {
+    if (pageData && !inlinePageData) {
       headComponents.push( /*#__PURE__*/React.createElement("link", {
         as: "fetch",
         rel: "preload",
@@ -397,7 +409,7 @@ async function staticPage({
       }
     }); // Add page metadata for the current page
 
-    const windowPageData = `/*<![CDATA[*/window.pagePath="${pagePath}";/*]]>*/`;
+    const windowPageData = `/*<![CDATA[*/window.pagePath="${pagePath}";${inlinePageData ? `window.pageData=${JSON.stringify(pageData)};` : ``}/*]]>*/`;
     postBodyComponents.push( /*#__PURE__*/React.createElement("script", {
       key: `script-loader`,
       id: `gatsby-script-loader`,
@@ -465,4 +477,10 @@ async function staticPage({
     e.unsafeBuiltinsUsage = global.unsafeBuiltinUsage;
     throw e;
   }
+}
+
+function getPageChunk({
+  componentChunkName
+}) {
+  return asyncRequires.components[componentChunkName]();
 }

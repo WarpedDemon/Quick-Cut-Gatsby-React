@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import { StaticImage } from "gatsby-plugin-image"
 import Carousel from './Carousel'
+
 
 export default function SingleParrallaxPage() {
 
