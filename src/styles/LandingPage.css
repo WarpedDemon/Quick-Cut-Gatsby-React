@@ -235,6 +235,11 @@ h3{
   */
 }
 
+.WhiteStrip{
+  min-height: 120vh;
+  background-color: white;
+}
+
 .img1{
   /* The image used */
   background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_9.jpg");
@@ -354,4 +359,3 @@ h3{
 .TimeContainer li {
   margin-bottom: 25px;
 }
-
