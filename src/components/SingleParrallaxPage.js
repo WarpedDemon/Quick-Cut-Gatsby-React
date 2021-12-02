@@ -81,29 +81,9 @@ export default function SingleParrallaxPage() {
               <hr id="hrRight"/>
               <br/>
               <div>
-                <ul className="TimeContainer">
-                  <li>
-                  Monday: 9am to 5pm
-                  </li>
-                  <li>
-                  Tuesday: 9am to 5pm
-                  </li>
-                  <li>
-                  Wednesday: 9am to 5pm
-                  </li>
-                  <li>
-                  Thursday: 9am to 5:30pm
-                  </li>
-                  <li>
-                  Friday: 9am to 5pm
-                  </li>
-                  <li>
-                  Saturday: 9am to 5pm
-                  </li>
-                  <li>
-                  Sunday: Closed
-                  </li>
-                </ul>
+                Sample textSample textSample textSample textSample textSample textSample text
+                Sample textSample textSample textSample textSample textSample textSample text
+                Sample textSample textSample textSample textSample textSample textSample text
                 <br/>
               </div>
             </div>
@@ -117,30 +97,9 @@ export default function SingleParrallaxPage() {
               <hr id="hrLeft"/>
               <br/>
               <div>
-                <ul className="TimeContainer">
-                  <li>
-                  Monday: 9am to 5:30pm
-                  </li>
-                  <li>
-                  Tuesday: 9am to 5:30pm
-                  </li>
-                  <li>
-                  Wednesday: 9am to 5:30pm
-                  </li>
-                  <li>
-                  Thursday: 9am to 5:30pm
-                  </li>
-                  <li>
-                  Friday: 9am to 5:30pm
-                  </li>
-                  <li>
-                  Saturday: 9am to 5pm
-                  </li>
-                  <li>
-                  Sunday: 11am to 5pm
-                  </li>
-                </ul>
-                <br/>
+                Sample textSample textSample textSample textSample textSample textSample text
+                Sample textSample textSample textSample textSample textSample textSample text
+                Sample textSample textSample textSample textSample textSample textSample text
               </div>
             </div>
           </div>
