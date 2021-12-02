@@ -77,13 +77,33 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-                <h2 id="MainConentTitleRight">Whitfords Opening Times</h2>
-                <hr id="hrRight"/>
-                <br/>
-                <div>
-                <p>
-                  ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-                <p/>
+              <h2 id="MainConentTitleRight">Whitfords Opening Times</h2>
+              <hr id="hrRight"/>
+              <br/>
+              <div>
+                <ul className="TimeContainer">
+                  <li>
+                  Monday: 9am to 5pm
+                  </li>
+                  <li>
+                  Tuesday: 9am to 5pm
+                  </li>
+                  <li>
+                  Wednesday: 9am to 5pm
+                  </li>
+                  <li>
+                  Thursday: 9am to 5:30pm
+                  </li>
+                  <li>
+                  Friday: 9am to 5pm
+                  </li>
+                  <li>
+                  Saturday: 9am to 5pm
+                  </li>
+                  <li>
+                  Sunday: Closed
+                  </li>
+                </ul>
                 <br/>
               </div>
             </div>
@@ -93,14 +113,35 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-                <h2 id="MainConentTitleLeft">Dianella Opening Times</h2>
-                <hr id="hrLeft"/>
+              <h2 id="MainConentTitleLeft">Dianella Opening Times</h2>
+              <hr id="hrLeft"/>
+              <br/>
+              <div>
+                <ul className="TimeContainer">
+                  <li>
+                  Monday: 9am to 5:30pm
+                  </li>
+                  <li>
+                  Tuesday: 9am to 5:30pm
+                  </li>
+                  <li>
+                  Wednesday: 9am to 5:30pm
+                  </li>
+                  <li>
+                  Thursday: 9am to 5:30pm
+                  </li>
+                  <li>
+                  Friday: 9am to 5:30pm
+                  </li>
+                  <li>
+                  Saturday: 9am to 5pm
+                  </li>
+                  <li>
+                  Sunday: 11am to 5pm
+                  </li>
+                </ul>
                 <br/>
-                <div>
-                <p>
-                  ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-                <p/>
-                <br/>
+              </div>
             </div>
           </div>
         </div>
