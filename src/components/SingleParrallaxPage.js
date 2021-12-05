@@ -351,6 +351,18 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainerRightSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
+              <h2 id="MainConentTitleLeft">We now offer ZIP pay</h2>
+              <hr id="hrLeft"/>
+              <br/>
+              <div id="image4">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="ConentContainerLeftSmall">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
               <h2 id="MainConentTitleRight">Quick Cut</h2>
               <hr id="hrRight"/>
               <br/>
@@ -363,18 +375,6 @@ export default function SingleParrallaxPage() {
                 <p>Now introducing ZIP pay.</p>
                 <br/>
                 <br/>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="ConentContainerLeftSmall">
-          <div id="IntroContentBoxText">
-            <div id="MainContent">
-              <h2 id="MainConentTitleLeft">We now offer ZIP pay</h2>
-              <hr id="hrLeft"/>
-              <br/>
-              <div id="image4">
               </div>
             </div>
           </div>
