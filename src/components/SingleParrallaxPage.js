@@ -74,7 +74,7 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallax WhiteStrip" id="WhiteStrip">
-        <div id="ConentContainerRight">
+        <div id="ConentContainerRightSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleRight">Quick Cut</h2>
@@ -94,7 +94,7 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ConentContainerLeftSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleLeft">Fast & Friendly</h2>
@@ -182,7 +182,7 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallaxNavWhiteStrip WhiteStrip" id="WhiteStrip">
-        <div id="ConentContainerRight">
+        <div id="ConentContainerRightSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleRight">Your Local Barber</h2>
@@ -194,7 +194,7 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ConentContainerLeftSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleLeft">Quick Cut</h2>
@@ -279,7 +279,7 @@ export default function SingleParrallaxPage() {
       </div>
 
       <div className="PeelParrallaxNavWhiteStrip WhiteStrip" id="WhiteStrip">
-        <div id="ConentContainerRight">
+        <div id="ConentContainerRightSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleRight">Quick Cut</h2>
@@ -299,7 +299,7 @@ export default function SingleParrallaxPage() {
           </div>
         </div>
 
-        <div id="ConentContainerLeft">
+        <div id="ConentContainerLeftSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleLeft">Come into the salon today!</h2>

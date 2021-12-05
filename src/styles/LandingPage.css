@@ -154,6 +154,18 @@ a:hover{
   margin-top: 33vh;
 }
 
+#ConentContainerLeftSmall{
+  float: left;
+  margin-left: 10vw;
+  margin-top: 7vh;
+}
+
+#ConentContainerRightSmall{
+  float: right;
+  margin-right: 10vw;
+  margin-top: 7vh;
+}
+
 #ConentContainerMiddle {
   float: none;
   margin: auto;
