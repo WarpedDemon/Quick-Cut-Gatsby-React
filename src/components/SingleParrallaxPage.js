@@ -99,7 +99,7 @@ export default function SingleParrallaxPage() {
         </div>
 
         <div id="ConentContainerLeft">
-          <div id="IntroContentBox">
+          <div id="IntroContentBoxText">
             <div id="MainContent">
               <h2 id="MainConentTitleLeft">Fast & Friendly</h2>
               <hr id="hrLeft"/>
