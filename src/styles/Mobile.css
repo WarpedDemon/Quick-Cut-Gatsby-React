@@ -199,6 +199,22 @@
     padding-top: 50px;
   }
 
+  #IntroContentBoxText{
+    width:95vw;
+  }
+
+  #image1{
+    width:95vw;
+  }
+
+  #image2{
+    width:95vw;
+  }
+
+  #image3{
+    width:95vw;
+  }
+
   #ConentContainerRightSmall {
     float: none;
     margin-top: 0vh;
