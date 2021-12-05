@@ -81,15 +81,13 @@ export default function SingleParrallaxPage() {
               <hr id="hrRight"/>
               <br/>
               <div>
+                <br/>
+                <br/>
+                <br/>
                 <p>Our haircut packages include our hottest ready to go haircuts.</p>
                 <br/>
                 <p>Our aim is to offer you the latest trends in hair at a fraction of the price!</p>
                 <br/>
-                <p>We are confident that you will find a haircut that suits you and we promise that you will be impressed by our work.</p>
-                <br/>
-                <p>The first step to your new look is coming into the store and getting started down the path to a better you.</p>
-                <br/>
-                <p>You'll be greeted with a smile, receive a light touch-up and walk out the door looking like a million bucks.</p>
                 <br/>
               </div>
             </div>
@@ -176,6 +174,39 @@ export default function SingleParrallaxPage() {
                   Sunday: 11am to 5pm
                   </li>
                 </ul>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="PeelParrallax WhiteStrip" id="WhiteStrip">
+        <div id="ConentContainerRight">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
+              <h2 id="MainConentTitleRight">Your Local Barber</h2>
+              <hr id="hrRight"/>
+              <br/>
+              <div id="image2">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="ConentContainerLeft">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
+              <h2 id="MainConentTitleLeft">Quick Cut</h2>
+              <hr id="hrLeft"/>
+              <div>
+                <br/>
+                <br/>
+                <br/>
+                <p>We are confident that you will find a haircut that suits you.</p>
+                <br/>
+                <p>We promise that you will be impressed by our work.</p>
+                <br/>
                 <br/>
               </div>
             </div>
