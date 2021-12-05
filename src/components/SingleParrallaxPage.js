@@ -87,8 +87,6 @@ export default function SingleParrallaxPage() {
                 <br/>
                 <p>We are confident that you will find a haircut that suits you and we promise that you will be impressed by our work.</p>
                 <br/>
-                <p>The first step towards your new look is making an appointment for your appointment.</p>
-                <br/>
                 <p>The first step to your new look is coming into the store and getting started down the path to a better you.</p>
                 <br/>
                 <p>You'll be greeted with a smile, receive a light touch-up and walk out the door looking like a million bucks.</p>
