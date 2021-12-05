@@ -81,7 +81,7 @@ export default function SingleParrallaxPage() {
               <hr id="hrRight"/>
               <br/>
               <div>
-                <p>Our haircut packages include our hottest ready to go haircuts, alongside a range of products at a minimum cost.</p>
+                <p>Our haircut packages include our hottest ready to go haircuts.</p>
                 <br/>
                 <p>Our aim is to offer you the latest trends in hair at a fraction of the price!</p>
                 <br/>
