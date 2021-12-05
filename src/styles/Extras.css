@@ -44,6 +44,13 @@ iframe {
   background-size: cover;
 }
 
+#image4{
+  background-image: url("/img/zippay.png");
+  width: 33vw;
+  height: 33vh;
+  background-size: cover;
+}
+
 /* Other Divs */
 #ToTopButton {
   position: fixed;

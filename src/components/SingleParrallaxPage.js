@@ -347,6 +347,40 @@ export default function SingleParrallaxPage() {
         </div>
       </div>
 
+      <div className="PeelParrallaxNavWhiteStrip WhiteStrip" id="WhiteStrip">
+        <div id="ConentContainerRightSmall">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
+              <h2 id="MainConentTitleRight">Quick Cut</h2>
+              <hr id="hrRight"/>
+              <br/>
+              <div>
+                <br/>
+                <br/>
+                <br/>
+                <p>At Quick Cut we now offer alternative payment options.</p>
+                <br/>
+                <p>Now introducing ZIP pay.</p>
+                <br/>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="ConentContainerLeftSmall">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
+              <h2 id="MainConentTitleLeft">We now offer ZIP pay</h2>
+              <hr id="hrLeft"/>
+              <br/>
+              <div id="image4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="PeelParrallax img6" id="img6">
         <div className="carouselHeader Gallery">
           <div id="IntroContentBox" className="DontRotate">
