@@ -68,7 +68,7 @@
   .PeelParrallax{
       background-attachment: scroll;
       width:100vw;
-  
+
   }
 
   #ConentContainer{
@@ -199,6 +199,15 @@
     padding-top: 50px;
   }
 
+  #ConentContainerRightSmall {
+    float: none;
+    margin-top: 0vh;
+    margin-left: 1vw;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+
   .cancelMarginLeft {
     margin-left: 0 !important;
   }
@@ -211,7 +220,13 @@
     padding-bottom: 50px;
   }
 
-  
+  #ConentContainerLeftSmall {
+    float: none;
+    margin-top: 5vh;
+    margin-left: 1vw;
+    padding-left: 0px;
+    padding-bottom: 50px;
+  }
 
   #FooterRibben{
     width: 90vw;
