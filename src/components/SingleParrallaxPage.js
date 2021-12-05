@@ -77,13 +77,21 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainerRight">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleRight">Whitfords Opening Times</h2>
+              <h2 id="MainConentTitleRight">Quick Cut</h2>
               <hr id="hrRight"/>
               <br/>
               <div>
-                Sample textSample textSample textSample textSample textSample textSample text
-                Sample textSample textSample textSample textSample textSample textSample text
-                Sample textSample textSample textSample textSample textSample textSample text
+                <p>Our haircut packages include our hottest ready to go haircuts, alongside a range of products at a minimum cost.</p>    
+                <br/>
+                <p>Our aim is to offer you the latest trends in hair at a fraction of the price!</p>
+                <br/>
+                <p>We are confident that you will find a haircut that suits you and we promise that you will be impressed by our work.</p>
+                <br/>
+                <p>The first step towards your new look is making an appointment for your appointment.</p>
+                <br/>
+                <p>The first step to your new look is coming into the store and getting started down the path to a better you.</p>
+                <br/>
+                <p>You'll be greeted with a smile, receive a light touch-up and walk out the door looking like a million bucks.</p>
                 <br/>
               </div>
             </div>
@@ -93,13 +101,10 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainerLeft">
           <div id="IntroContentBox">
             <div id="MainContent">
-              <h2 id="MainConentTitleLeft">Dianella Opening Times</h2>
+              <h2 id="MainConentTitleLeft">Fast & Friendly</h2>
               <hr id="hrLeft"/>
               <br/>
-              <div>
-                Sample textSample textSample textSample textSample textSample textSample text
-                Sample textSample textSample textSample textSample textSample textSample text
-                Sample textSample textSample textSample textSample textSample textSample text
+              <div id="image1">
               </div>
             </div>
           </div>

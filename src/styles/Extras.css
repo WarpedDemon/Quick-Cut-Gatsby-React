@@ -23,6 +23,10 @@ iframe {
   padding: 10px;
 }
 
+#image1{
+  background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_6.jpg");
+}
+
 /* Other Divs */
 #ToTopButton {
   position: fixed;
