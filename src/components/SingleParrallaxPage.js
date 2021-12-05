@@ -278,6 +278,40 @@ export default function SingleParrallaxPage() {
         </div>
       </div>
 
+      <div className="PeelParrallax WhiteStrip" id="WhiteStrip">
+        <div id="ConentContainerRight">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
+              <h2 id="MainConentTitleRight">Quick Cut</h2>
+              <hr id="hrRight"/>
+              <br/>
+              <div>
+                <br/>
+                <br/>
+                <br/>
+                <p>The first step to your new look is coming into the store and getting started down the path to a better you.</p>
+                <br/>
+                <p>You'll be greeted with a smile, receive a light touch-up and walk out the door looking like a million bucks.</p>
+                <br/>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="ConentContainerLeft">
+          <div id="IntroContentBoxText">
+            <div id="MainContent">
+              <h2 id="MainConentTitleLeft">Come into the salon today!</h2>
+              <hr id="hrLeft"/>
+              <br/>
+              <div id="image3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="PeelParrallax img4" id="img4">
         <div id="ConentContainerRight">
           <div id="IntroContentBox">

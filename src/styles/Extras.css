@@ -29,6 +29,18 @@ iframe {
   height: 33vh;
 }
 
+#image2{
+  background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_20.jpg");
+  width: 33vw;
+  height: 33vh;
+}
+
+#image3{
+  background-image: url("/img/QuickCuts_FirstShoot-Whitfords_FullRes_34.jpg");
+  width: 33vw;
+  height: 33vh;
+}
+
 /* Other Divs */
 #ToTopButton {
   position: fixed;
