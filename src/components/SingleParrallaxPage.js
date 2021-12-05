@@ -181,7 +181,7 @@ export default function SingleParrallaxPage() {
         </div>
       </div>
 
-      <div className="PeelParrallax WhiteStrip" id="WhiteStrip">
+      <div className="PeelParrallaxNavWhiteStrip WhiteStrip" id="WhiteStrip">
         <div id="ConentContainerRight">
           <div id="IntroContentBoxText">
             <div id="MainContent">
@@ -278,7 +278,7 @@ export default function SingleParrallaxPage() {
         </div>
       </div>
 
-      <div className="PeelParrallax WhiteStrip" id="WhiteStrip">
+      <div className="PeelParrallaxNavWhiteStrip WhiteStrip" id="WhiteStrip">
         <div id="ConentContainerRight">
           <div id="IntroContentBoxText">
             <div id="MainContent">
