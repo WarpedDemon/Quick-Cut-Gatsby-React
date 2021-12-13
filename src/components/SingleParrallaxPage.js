@@ -351,7 +351,7 @@ export default function SingleParrallaxPage() {
         <div id="ConentContainerRightSmall">
           <div id="IntroContentBoxText">
             <div id="MainContent">
-              <h2 id="MainConentTitleLeft">We now offer ZIP pay</h2>
+              <h2 id="MainConentTitleLeft">We now offer Afterpay</h2>
               <hr id="hrLeft"/>
               <br/>
               <div id="image4">
@@ -372,7 +372,7 @@ export default function SingleParrallaxPage() {
                 <br/>
                 <p>At Quick Cut we now offer alternative payment options.</p>
                 <br/>
-                <p>Now introducing ZIP pay.</p>
+                <p>Now introducing Afterpay.</p>
                 <br/>
                 <br/>
               </div>
