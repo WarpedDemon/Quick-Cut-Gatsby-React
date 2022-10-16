@@ -70,7 +70,7 @@ export default function SingleParrallaxPage() {
               <h2 id="MainConentTitle">Professional Haircuts Perth</h2>
               <hr/>
               <br/>
-              <p>We specialise in a quick professional hair cutting service, from $10 ~ 10 Min*</p>
+              <p>We specialise in a quick and professional hair cutting service.</p>
               <br/>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function SingleParrallaxPage() {
                   Wednesday: 9am to 5pm
                   </li>
                   <li>
-                  Thursday: 9am to 5:30pm
+                  Thursday: 9am to 5pm
                   </li>
                   <li>
                   Friday: 9am to 5pm
