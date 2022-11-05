@@ -415,6 +415,8 @@ export default function SingleParrallaxPage() {
                 <li className="answer">    -    No Quick Cuts does not offer any bookings.</li>
                 <li>Is Quick Cuts a walk in only business?</li>
                 <li className="answer">    -    Yes Quick Cuts is a walk in business.</li>
+                <li>How much is a haircut?</li>
+                <li className="answer">    -    Please refer to our pricing images on Facebook or Google Profile.</li>
               </ul>
               <br/>
               <br/>
